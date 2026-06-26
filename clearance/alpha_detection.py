@@ -17,11 +17,18 @@ print("Running alpha detection...")
 
 conn = sqlite3.connect("clearance.db")
 
-# read old database
-old_df = pd.read_sql(
-    "SELECT * FROM clearance_products",
-    conn
-)
+first_run = False
+
+try:
+    # read old database
+    old_df = pd.read_sql(
+        "SELECT * FROM clearance_products",
+        conn
+    )
+except Exception:
+    print("First run")
+    first_run = True
+    old_df = pd.DataFrame()
 
 # read new csv files
 new_perfume = pd.read_csv("clearance_perfume.csv")
@@ -32,6 +39,19 @@ new_df = pd.concat(
     ignore_index=True
 )
 
+if first_run:
+    new_df.to_sql(
+        "clearance_products",
+        conn,
+        if_exists="replace",
+        index=False
+    )
+
+    conn.close()
+
+    print("Database initialized with", len(new_df), "products.")
+    exit()
+    
 # merge new data, find potential alpha
 compare = old_df.merge(
     new_df,
