@@ -4,17 +4,16 @@ from datetime import datetime
 from email.mime.text import MIMEText
 import smtplib
 import sqlite3
+import os
 
 # Telegram credentials
-BOT_TOKEN = "8751194675:AAE7HweS5jFFhDm4HUCBsB_2ulOTzKfL3Nc"
-CHAT_ID = "8916177069"
-
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHAT_ID = os.environ["CHAT_ID"]
 # Email credentials
 sender_email = "qwqsophiazhang@gmail.com"
 receiver_email = ["wenminqizhang@gmail.com", "qwqsophiazhang@gmail.com"]
-# TODO： Hide password before post to Github
- # cijb abqm cifs yhzx
-email_password = "cijbabqmcifsyhzx"
+email_password = os.environ["EMAIL_PASSWORD"]
+
 
 # last message
 def save_message(message):

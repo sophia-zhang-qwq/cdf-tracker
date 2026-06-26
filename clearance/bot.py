@@ -1,10 +1,10 @@
 import requests
 import time
 import sqlite3
-
+import os
 from alert import send_telegram_alert
 
-BOT_TOKEN = "8751194675:AAE7HweS5jFFhDm4HUCBsB_2ulOTzKfL3Nc"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 url = f"https://api.telegram.org/bot{BOT_TOKEN}"
 

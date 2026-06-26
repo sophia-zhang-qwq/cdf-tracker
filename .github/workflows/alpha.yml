@@ -1,0 +1,51 @@
+name: Clearance Tracker
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 * * * *"      # 每小时
+
+  workflow_dispatch:
+
+jobs:
+  alpha:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run tracker
+        working-directory: clearance
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: |
+          python alpha_detection.py
+      
+      - name: Commit database
+        working-directory: .
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          
+          git add clearance/*.csv
+          git add clearance/clearance.db
+
+          git diff --cached --quiet || git commit -m "Update clearance database"
+
+          git push
