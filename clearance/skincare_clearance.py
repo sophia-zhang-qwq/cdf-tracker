@@ -111,10 +111,13 @@ for p in all_products:
 
         "price": p.get("price"),
         "originalPrice": p.get("originalPrice"),
-
-        "discount": p.get("discount"),
+        
+        # discount
+        "discount": p.get("discount"), # actualy price
         #"reducePrice": p.get("reducePrice"),
         #"futurePrice": p.get("futurePrice"),
+        "priceDiscount": p.get("priceDiscount"), #3.5折
+        "activityDiscount": p.get("activityDiscount"), #3.5折
 
         # 活动库存 vs 总库存
         "activityStock": p.get("activityStock"),
@@ -123,7 +126,6 @@ for p in all_products:
         # 销量, 限量
         "sellNum": p.get("sellNum"),
         #"limitNum": p.get("catalogInfo", {}).get("limitNum"),
-
 
         # promotion end time
         "timeLabel": p.get("timeLabel"),

@@ -105,8 +105,11 @@ for p in all_products:
 
         "price": p.get("price"),
         "originalPrice": p.get("originalPrice"),
-
-        "discount": p.get("discount"),
+        
+        # discount
+        "priceDiscount": p.get("priceDiscount"), #3.5折
+        "activityDiscount": p.get("activityDiscount"), #3.5折
+        "discount": p.get("discount"), # actualy price
         #"reducePrice": p.get("reducePrice"),
         #"futurePrice": p.get("futurePrice"),
 
