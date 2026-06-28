@@ -137,6 +137,27 @@ if len(removed_products) > 0:
 # alpha 4: restock alert
 # TO-DO
 
+# alpha 5: price mismatch detection
+discount_alert = new_df[
+    new_df["discount"].notna()
+    &
+    (new_df["discount"] != new_df["price"])
+]
+
+if len(discount_alert) > 0:
+
+    alerts.append("=== POSSIBLE PRICE MISMATCH ARBITRAGE ===")
+
+    for _, row in discount_alert.iterrows():
+
+        alerts.append(
+            f"{row['productName']}\n"
+            f"Price: HK${row['price']}\n"
+            f"Discount Price: HK${row['discount']}\n"
+            f"Original Price: HK${row['originalPrice']}\n"
+            f"Discount: {row['priceDiscount']}折\n"
+        )
+
 # update database
 new_df.to_sql(
     "clearance_products",
