@@ -44,7 +44,8 @@ json_data = {
     'firstCategoryList': [
         3008,
     ],
-    'partId': '1119010',
+    #'partId': '1119010',
+    'partId': '1134997',
     'soldOutShowType': '3',
 }
 

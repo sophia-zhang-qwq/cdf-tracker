@@ -47,11 +47,50 @@ json_data = {
     #'firstCategoryList': [3008,],
     'secondCategoryList':[3022],
     # perfume -> skincare 板块partID变化
-    #'partId': '1119010',
-    'partId': '1119004',
+
+    #'partId': '1119004',
+    #'soldOutShowType': '3',
+    'partId': '1134991',
     #'soldOutShowType': '3',
 }
 
+""""
+for pid in range(1134985, 1135005):
+    url = (
+        "https://www.cdf-beauty.com/api/prod/shophomepartdata"
+        f"?PartId={pid}&pageSize=1"
+    )
+
+    r = requests.get(url, headers=headers)
+
+    try:
+        data = r.json()
+
+        # 没有 list 就跳过
+        if not data.get("list"):
+            continue
+
+        print("=" * 60)
+        print(f"PartId   : {pid}")
+        print(f"dataType : {data.get('dataType')}")
+
+        activity = data.get("activityInfo", {})
+        print(f"Activity : {activity.get('name')}")
+        print(f"ActivityId : {activity.get('activityId')}")
+
+        print(f"List size : {len(data['list'])}")
+
+        first = data["list"][0]
+
+        print("\nFirst item keys:")
+        print(sorted(first.keys()))
+
+        print("\nFirst item preview:")
+        print(json.dumps(first, indent=2, ensure_ascii=False)[:1000])
+
+    except Exception as e:
+        print(pid, e)
+"""
 # use session for 1 request for all pages without closing
 session = requests.Session()
 
