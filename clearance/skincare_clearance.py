@@ -175,8 +175,7 @@ home_df = products_to_df(home_products)
 home_df.to_csv(
     "home_preview_skincare.csv",
     index=False,
-    encoding="utf-8-sig"
-)
+    encoding="utf-8-sig")
 
 print("Saved: home_preview_skincare.csv\n")
 
@@ -193,8 +192,6 @@ page = 1
 fetched = 0
 
 while True:
-
-
     json_data["pageIndex"] = page
 
     #response = requests.post(
@@ -236,7 +233,7 @@ search_df.to_csv(
     index=False,
     encoding="utf-8-sig"
 )
-print("Saved: clearance_skincare.csv\n")
+print("Saved: clearance_skincare.csv")
 
 # Summary
 print("\n" + "=" * 60)
