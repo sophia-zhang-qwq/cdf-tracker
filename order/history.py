@@ -89,8 +89,11 @@ for order in all_orders:
 
                 price = p.get("price")
                 original_price = p.get("originalPrice")
-                discount = (price/original_price) * 10
-                                 
+                if price!=0 and original_price!=0:
+                    discount = round(price/original_price * 10, 1)
+                else:
+                    discount = None
+                            
                 rows.append({
                     "order_id": order_id,
                     "create_time": order_time,
