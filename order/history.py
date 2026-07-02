@@ -20,6 +20,11 @@ all_orders = []
 
 last_order_id = 0
 
+# session不会重复打开界面,防止被踢
+session = requests.Session()
+session.headers.update(headers)
+session.cookies.update(COOKIES)
+
 while True:
     params = {
         "pagesize": 10,
@@ -30,13 +35,7 @@ while True:
         "timestamp": int(time.time() * 1000),
     }
 
-    r = requests.get(
-        URL,
-        headers=headers,
-        cookies=COOKIES,
-        params=params,
-        timeout=30,
-    )
+    r = session.get(URL,params=params,timeout=30)
 
     r.raise_for_status()
 
@@ -63,7 +62,6 @@ print("=" * 60)
 print(f"Total Orders: {len(all_orders)}")
 
 # 保存完整 JSON
-
 with open(
     "orders.json",
     "w",
@@ -88,6 +86,11 @@ for order in all_orders:
     for seller in order.get("sellerOrderList", []):
         for sub in seller.get("subOrderList", []):
             for p in sub.get("prodList", []):
+
+                price = p.get("price")
+                original_price = p.get("originalPrice")
+                discount = (price/original_price) * 10
+                                 
                 rows.append({
                     "order_id": order_id,
                     "create_time": order_time,
@@ -96,17 +99,19 @@ for order in all_orders:
                     "sku_id": p.get("skuId"),
 
                     "brand_id": p.get("brandId"),
-
+                    "skuInfo": p.get("skuInfo"),
                     "name": p.get("desc"),
 
                     "price": p.get("price"),
                     "original_price": p.get("originalPrice"),
+                    "discount": discount,
 
                     "quantity": p.get("purchaseNum"),
 
                     "activity_id": p.get("activityId"),
                     "activity_type": p.get("activityType"),
                     "activity_name": p.get("activityName"),
+                    "activityLabel": p.get("activityLabel"),
 
                     "category": p.get("masterCategoryId"),
                 })
