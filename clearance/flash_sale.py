@@ -50,9 +50,7 @@ json_data = {
     'pageIndex': 1,
     'refreshProduct': True,
     'resultRec': True,
-    'firstCategoryList': [
-        3008,
-    ],
+    #'firstCategoryList': [3008,],
     #'partId': '1119010',
     'partId': '1134997',
     'soldOutShowType': '3',
@@ -164,6 +162,12 @@ for name, part in FLASH_PARTS.items():
     print("=" * 60)
 
     page = 1
+
+    print(part)
+    print(json_data)
+    print(json_data.keys())
+    print(json_data.get("count"))
+    print(json_data.get("msg"))
 
     while True:
 
