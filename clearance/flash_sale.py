@@ -2,6 +2,12 @@ import requests
 import pandas as pd
 import json
 
+# Difference btw perfume_clearance.py and flash_sale.py:
+# 1. change referer 
+# 2. change payload 
+# 3. add flash_parts
+
+
 cookies = {
     '_gcl_au': '1.1.1842803474.1780732880',
     '_ga': 'GA1.1.1923441225.1780732883',
@@ -20,7 +26,10 @@ headers = {
     'Connection': 'keep-alive',
     'Content-Type': 'application/json;charset=UTF-8',
     'Origin': 'https://www.cdf-beauty.com',
-    'Referer': 'https://www.cdf-beauty.com/search?item=%7B%22firstCategoryId%22%3A3008%2C%22title%22%3A%22%E9%A6%99%E6%B0%B4%22%7D&topicId=1119010',
+
+    #'Referer': 'https://www.cdf-beauty.com/search?item=%7B%22firstCategoryId%22%3A3008%2C%22title%22%3A%22%E9%A6%99%E6%B0%B4%22%7D&topicId=1119010',
+    'Referer':'https://www.cdf-beauty.com/showactivity?pageId=46236',
+
     'Sec-Fetch-Dest': 'empty',
     'Sec-Fetch-Mode': 'cors',
     'Sec-Fetch-Site': 'same-origin',
@@ -119,174 +128,82 @@ def products_to_df(products):
     df = pd.DataFrame(rows)
     return df
 
-# save home-preview skincare clearance products to csv
-# 1134991 skincare
-# 1134997 perfume 
-print("=" * 60)
-print("Home Preview")
-print("=" * 60)
-home_products = get_home_products(1134997)
-print(f"Home preview: {len(home_products)} products")
+# Below added
 
-home_df = products_to_df(home_products)
-home_df.to_csv(
-    "home_preview_perfume.csv",
-    index=False,
-    encoding="utf-8-sig")
+FLASH_PARTS = {
+    "featured":1025537,
+    "skincare":926222,
+    "makeup":922282,
+    "perfume":922283,
+    "body":922284,
+    "food":1038583,
+}
 
-print("Saved: home_preview_perfume.csv\n")
+dfs=[]
+"""
+for name,part in FLASH_PARTS.items():
+    print("="*60)
+    print(name)
+    print("="*60)
+    home=get_home_products(part)
+    df_home=products_to_df(home)
+    print(f"{len(df_home)} products")
+    dfs.append(df_home)
 
-print("=" * 60)
-print("Full Search")
-print("=" * 60)
+flash_df = pd.concat(dfs,ignore_index=True)
+"""
 
-# use session for 1 request for all pages without closing
 session = requests.Session()
 
 all_products = []
-page = 1
-fetched = 0
 
-while True:
-    json_data["pageIndex"] = page
+for name, part in FLASH_PARTS.items():
 
-    response = session.post(
-        'https://www.cdf-beauty.com/api/nodesearch/sqsearch',
-        cookies=cookies,
-        headers=headers,
-        json=json_data
-    )
+    print("=" * 60)
+    print(name)
+    print("=" * 60)
 
-    data = response.json()
+    page = 1
 
-    products = data.get("list", [])
+    while True:
 
-    fetched += len(products)
-    print(
-        f"page {page}: "
-        f"{len(products)} products "
-        f"({fetched}/{data['count']} total)"
-    )
+        json_data["partId"] = part
+        json_data["pageIndex"] = page
 
-    # 滑到底部 没有商品了
-    if len(products) == 0:
-        break
+        response = session.post(
+            "https://www.cdf-beauty.com/api/nodesearch/sqsearch",
+            headers=headers,
+            cookies=cookies,
+            json=json_data,
+        )
 
-    all_products.extend(products)
-    page += 1
+        data = response.json()
 
-print(
-    f"商品数: {len(all_products)}/{data['count']} "
-    f"(缺货 {data['count'] - len(all_products)} 个)"
-)
+        products = data.get("list", [])
 
-# save all perfume clearance products to csv
-search_df = products_to_df(all_products)
-search_df.to_csv(
-    "clearance_perfume.csv",
-    index=False,
-    encoding="utf-8-sig"
-)
+        print(
+            f"page {page}: "
+            f"{len(products)} products"
+        )
 
-print("Saved: clearance_perfume.csv")
+        if len(products) == 0:
+            break
 
+        all_products.extend(products)
+
+        page += 1
+
+#flash_df = pd.concat(dfs,ignore_index=True)
+flash_df = products_to_df(all_products)
+
+flash_df = flash_df.drop_duplicates(subset="productId",keep="first")
+flash_df.to_csv("today_flash.csv",index=False,encoding="utf-8-sig",)
 # Summary
 print("\n" + "=" * 60)
 print("Done")
 print("=" * 60)
 
-print(f"Home Preview : {len(home_products)} products")
-print(f"Full Search  : {len(all_products)} products")
+print(f"Flash Products: {len(flash_df)} products")
 
 print("CSV Files")
-print("  home_preview_perfume.csv")
-print("  clearance_perfume.csv")
-
-"""
-print("\n========== ALL KEYS ==========\n")
-
-all_keys = set()
-
-for p in all_products:
-    all_keys.update(p.keys())
-
-for k in sorted(all_keys):
-    print(k)
-
-print("\n========== FIRST PRODUCT ==========\n")
-
-print(
-    json.dumps(
-        all_products[0],
-        indent=2,
-        ensure_ascii=False
-    )
-)
-"""
-
-
-"""
-{
-  "price": [
-    290,
-    290
-  ],
-  "flashDiscountType": 1,
-  "discount": [
-    3,
-    3
-  ],
-  "couponUseType": 1,
-  "promotionUseType": 0,
-  "useType": [
-    3
-  ],
-  "remind": 0,
-  "endTime": 0,
-  "shipDays": 0,
-  "design": {
-    "btnColor": "",
-    "header": "https://staticontent.shop2cn.cn/shop2cn/mp/images/item/item_purchasein_bg.png",
-    "labelColor": null,
-    "titlePicUrl": "https://staticontent.shop2cn.cn/shop2cn/mp/images/item/purchasein_icon.png",
-    "priceLabel": "清倉價"
-  },
-  "notice": null,
-  "canOriginalPriceBuy": false,
-  "conditionType": 3,
-  "showInbuyWatermark": false,
-  "lotteryState": 0,
-  "newProductStateEnum": 0,
-  "newProductReservation": false,
-  "canBuyNewProduct": false,
-  "buyingTime": "2026.05.29 00:00",
-  "buyingEndTime": "2026.06.30 23:59",
-  "endPreviewTime": "2026.05.29 00:00",
-  "newProductReservationNum": 0,
-  "reservationSuccessPrompt": null,
-  "hiddenPrice": null,
-  "specialHandling": false,
-  "description": [
-    "活動價 HK$290，特惠清倉",
-    "距結束21 天 11 小時"
-  ],
-  "state": 1,
-  "activityUrl": "",
-  "joinDesc": null,
-  "introUrl": null,
-  "remainTime": 1855552221,
-  "remainTimeDesc": "",
-  "remainTimeTitle": "",
-  "specialRemainTimeTitle": "",
-  "great": true,
-  "earnestDesc": null,
-  "finalPayDesc": null,
-  "earnestCountDesc": null,
-  "type": 22,
-  "countDown": false,
-  "activityId": 500021865,
-  "stockType": null,
-  "activityName": "特惠清倉",
-  "isSpecial": true
-}
-"""
+print("  today_flash.csv")
