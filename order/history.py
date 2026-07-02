@@ -83,7 +83,7 @@ for order in all_orders:
 
     for seller in order.get("sellerOrderList", []):
         for sub in seller.get("subOrderList", []):
-            for p in products:
+            for p in sub.get("prodList", []):
                 rows.append({
                     "order_id": order_id,
                     "create_time": order_time,
