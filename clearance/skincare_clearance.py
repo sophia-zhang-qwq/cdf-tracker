@@ -91,10 +91,102 @@ for pid in range(1134985, 1135005):
     except Exception as e:
         print(pid, e)
 """
+
+# get home top-listed products for a given section (partId)
+def get_home_products(part_id):
+
+    url = "https://www.cdf-beauty.com/api/prod/shophomepartdata"
+
+    params = {
+        "PartId": part_id,
+        "pageSize": 21,
+        "tokenCode": "",
+    }
+
+    r = requests.get(
+        url,
+        params=params,
+        headers=headers,
+        cookies=cookies,
+    )
+
+    data = r.json()
+
+    return data.get("list", [])
+def products_to_df(products):
+    rows = []
+    for p in products:
+
+        rows.append({
+
+            "productId": p.get("id"),
+            # sku
+
+            #"brandName": p.get("brandName"),
+            #"brandEnName": p.get("brandEnName"),
+            "brandId": p.get("brandId"),
+            "productName": p.get("name"),
+
+
+            "price": p.get("price"),
+            "originalPrice": p.get("originalPrice"),
+            
+            # discount
+            "discount": p.get("discount"), # actualy price
+            #"reducePrice": p.get("reducePrice"),
+            #"futurePrice": p.get("futurePrice"),
+            "priceDiscount": p.get("priceDiscount"), #3.5折
+            "activityDiscount": p.get("activityDiscount"), #3.5折
+
+            # 活动库存 vs 总库存
+            "activityStock": p.get("activityStock"),
+            "stock": p.get("stock"),
+
+            # 销量, 限量
+            "sellNum": p.get("sellNum"),
+            #"limitNum": p.get("catalogInfo", {}).get("limitNum"),
+
+            # promotion end time
+            "timeLabel": p.get("timeLabel"),
+
+            "activityId": p.get("activityId"),
+            "activityProductId": p.get("activityProductId"),
+
+            "categoryId": p.get("categoryId"),
+            "thirdCategoryId": p.get("thirdCategoryId"),
+
+        })
+
+    df = pd.DataFrame(rows)
+    return df
+
+# save home-preview skincare clearance products to csv
+# 1134991 skincare
+# 1134997 perfume 
+print("=" * 60)
+print("Home Preview")
+print("=" * 60)
+home_products = get_home_products(1134991)
+print(f"Home preview: {len(home_products)} products")
+
+home_df = products_to_df(home_products)
+home_df.to_csv(
+    "home_preview_skincare.csv",
+    index=False,
+    encoding="utf-8-sig"
+)
+
+print("Saved: home_preview_skincare.csv\n")
+
+print("=" * 60)
+print("Full Search")
+print("=" * 60)
+
 # use session for 1 request for all pages without closing
 session = requests.Session()
 
 all_products = []
+
 page = 1
 fetched = 0
 
@@ -134,58 +226,27 @@ print(
     f"(缺货 {data['count'] - len(all_products)} 个)"
 )
 
-rows = []
-for p in all_products:
+# save all skincare clearance products to csv
+search_df = products_to_df(all_products)
 
-    rows.append({
-
-        "productId": p.get("id"),
-        # sku
-
-        #"brandName": p.get("brandName"),
-        #"brandEnName": p.get("brandEnName"),
-        "brandId": p.get("brandId"),
-        "productName": p.get("name"),
-
-
-        "price": p.get("price"),
-        "originalPrice": p.get("originalPrice"),
-        
-        # discount
-        "discount": p.get("discount"), # actualy price
-        #"reducePrice": p.get("reducePrice"),
-        #"futurePrice": p.get("futurePrice"),
-        "priceDiscount": p.get("priceDiscount"), #3.5折
-        "activityDiscount": p.get("activityDiscount"), #3.5折
-
-        # 活动库存 vs 总库存
-        "activityStock": p.get("activityStock"),
-        "stock": p.get("stock"),
-
-        # 销量, 限量
-        "sellNum": p.get("sellNum"),
-        #"limitNum": p.get("catalogInfo", {}).get("limitNum"),
-
-        # promotion end time
-        "timeLabel": p.get("timeLabel"),
-
-        "activityId": p.get("activityId"),
-        "activityProductId": p.get("activityProductId"),
-
-        "categoryId": p.get("categoryId"),
-        "thirdCategoryId": p.get("thirdCategoryId"),
-
-    })
-
-df = pd.DataFrame(rows)
-
-df.to_csv(
+search_df.to_csv(
     "clearance_skincare.csv",
     index=False,
     encoding="utf-8-sig"
 )
+print("Saved: clearance_skincare.csv\n")
 
-print("\nSaved: clearance_skincare.csv")
+# Summary
+print("\n" + "=" * 60)
+print("Done")
+print("=" * 60)
+
+print(f"Home Preview : {len(home_products)} products")
+print(f"Full Search  : {len(all_products)} products")
+
+print("CSV Files")
+print("  home_preview_skincare.csv")
+print("  clearance_skincare.csv")
 
 """
 print("\n========== ALL KEYS ==========\n")
