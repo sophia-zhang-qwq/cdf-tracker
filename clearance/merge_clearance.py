@@ -26,10 +26,6 @@ today_skincare.csv
 对于home_preview_perfume.csv和clearance_perfume.csv做同样的流程处理
 """
 
-print("=" * 60)
-print("Merge Skincare Clearance")
-print("=" * 60)
-
 # A Rule Engine
 CHECK_RULES = [
     ("price", "Price", 0.01),
@@ -39,16 +35,6 @@ CHECK_RULES = [
     ("activityStock", "Activity Stock", 0),
     ("stock", "Stock", 0),
 ]
-
-search_skincare = pd.read_csv("clearance_skincare.csv")
-home_skincare = pd.read_csv("home_preview_skincare.csv")
-
-import pandas as pd
-
-from alert import send_alert
-
-
-
 
 def merge_clearance(search_csv, home_csv, output_csv, category):
     print("=" * 60)
@@ -169,12 +155,7 @@ alerts.extend(alerts_perfume)
 # Summary
 # ==================================================
 
-print()
-print("=" * 60)
-print("Merge Finished")
-print("=" * 60)
-
-print("Generated Files")
+print("Merge Finished,Output Files:")
 print("  today_skincare.csv")
 print("  today_perfume.csv")
 
