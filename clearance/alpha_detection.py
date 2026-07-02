@@ -12,6 +12,9 @@ os.system("python3 perfume_clearance.py")
 print("Updating skincare...")
 os.system("python3 skincare_clearance.py")
 
+print("Running merge(cross-source alpha detection)...")
+os.system("python3 merge_clearance.py")
+
 print("Running alpha detection...")
 
 
@@ -31,8 +34,10 @@ except Exception:
     old_df = pd.DataFrame()
 
 # read new csv files
-new_perfume = pd.read_csv("clearance_perfume.csv")
-new_skincare = pd.read_csv("clearance_skincare.csv")
+#new_perfume = pd.read_csv("clearance_perfume.csv")
+#new_skincare = pd.read_csv("clearance_skincare.csv")
+new_perfume = pd.read_csv("today_perfume.csv")
+new_skincare = pd.read_csv("today_skincare.csv")
 
 new_df = pd.concat(
     [new_perfume, new_skincare],

@@ -17,7 +17,7 @@ Merge
         │        ├── 一致 → skip
         │        └── 不一致 → 有Alpha,Alert
         │
-        ├── 没有, Home独有 → Append
+        ├── 没有, Home独有 → Append(加进去discount要改成实际price)
         │
         │
         ▼
@@ -48,6 +48,8 @@ import pandas as pd
 from alert import send_alert
 
 
+
+
 def merge_clearance(search_csv, home_csv, output_csv, category):
     print("=" * 60)
     print(f"Merge {category}")
@@ -66,7 +68,21 @@ def merge_clearance(search_csv, home_csv, output_csv, category):
         # In Search? No, Home ONLY, Append to Search
         # --------------------------------------------------
         if match.empty:
-            merged = pd.concat([merged,pd.DataFrame([home_row])],ignore_index=True)
+            home_row = home_row.copy()
+            if (pd.notna(home_row["priceDiscount"]) and pd.notna(home_row["originalPrice"])):
+                actual_discount = (home_row["price"]/home_row["originalPrice"] * 10)
+                if abs(actual_discount - home_row["priceDiscount"]) > 0.1:
+                    alerts.append(
+                        "=== HOME PREVIEW ALPHA ===\n"
+                        f"{home_row['productName']}\n"
+                        f"Price: {home_row['price']}\n"
+                        f"Original Price: {home_row['originalPrice']}\n"
+                        f"Displayed Discount: {home_row['priceDiscount']}折\n"
+                        f"Actual Discount: {actual_discount:.1f}折\n")
+                else:
+                    # Normalize
+                    home_row["discount"] = home_row["price"]
+            merged = pd.concat([merged, pd.DataFrame([home_row])],ignore_index=True)
             continue
         # --------------------------------------------------
         # In Search? Yes, Same Product,Check for Alpha
