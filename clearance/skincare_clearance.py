@@ -113,6 +113,8 @@ def get_home_products(part_id):
     data = r.json()
 
     return data.get("list", [])
+
+
 def products_to_df(products):
     rows = []
     for p in products:
