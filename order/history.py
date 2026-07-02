@@ -91,24 +91,22 @@ for order in all_orders:
                 rows.append({
                     "order_id": order_id,
                     "create_time": order_time,
-                    "state": order_status,
 
                     "product_id": p.get("id"),
                     "sku_id": p.get("skuId"),
 
                     "brand_id": p.get("brandId"),
-                    "brand": p.get("brandName"),
 
                     "name": p.get("desc"),
-
-                    "activity_id": p.get("activityId"),
-                    "activity_type": p.get("activityType"),
-                    "activity_name": p.get("activityName"),
 
                     "price": p.get("price"),
                     "original_price": p.get("originalPrice"),
 
                     "quantity": p.get("purchaseNum"),
+
+                    "activity_id": p.get("activityId"),
+                    "activity_type": p.get("activityType"),
+                    "activity_name": p.get("activityName"),
 
                     "category": p.get("masterCategoryId"),
                 })
