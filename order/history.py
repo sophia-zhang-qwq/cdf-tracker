@@ -2,22 +2,25 @@ import json
 import time
 import requests
 import pandas as pd
+import sys
+from pathlib import Path
 
-from headers import HEADERS
+# put file root directory into the Python search path, so that we can import modules from the root directory
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+from common.headers import HEADERS, COOKIES, get_headers
 
 URL = "https://www.cdf-beauty.com/api/ordercenter/sqorderlist"
 # -------------------------
 # 填自己的 Header
 # -------------------------
-headers = HEADERS.copy()
-headers["referer"] = "https://www.cdf-beauty.com/myorderlist?selectedTabState=0&source=usercenter"
+referer = "https://www.cdf-beauty.com/myorderlist?selectedTabState=0&source=usercenter"
+headers = get_headers(referer)
 
 all_orders = []
 
 last_order_id = 0
 
 while True:
-
     params = {
         "pagesize": 10,
         "orderstate": 0,
@@ -30,6 +33,7 @@ while True:
     r = requests.get(
         URL,
         headers=headers,
+        cookies=COOKIES,
         params=params,
         timeout=30,
     )
