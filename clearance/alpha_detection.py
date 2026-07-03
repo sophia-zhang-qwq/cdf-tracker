@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 from alert import send_alert
-
+from watchlist import WATCHLIST
 
 # Update perfume_clearance.csv and skincare_clearance.csv to latest version
 print("Updating perfume...")
@@ -131,10 +131,11 @@ if len(activity_sold_out) > 0:
 
 # alpha 4: watchlist detection
 # closely monitor a few selected products for any change in price or stock
-WATCHLIST = ['p15737930','p15828750','p15872383','p15810473']
+#WATCHLIST = ['p15737930','p15828750','p15872383','p15810473']
 watch_alert = []
 WATCH_FIELDS = ["price","stock","activityStock","discount","originalPrice","priceDiscount","activityDiscount","sellNum"]
-watch_compare = compare[compare["productId"].isin(WATCHLIST)]
+WATCH_IDS = [v["productId"] for v in WATCHLIST.values()]
+watch_compare = compare[compare["productId"].isin(WATCH_IDS)]
 for _, row in watch_compare.iterrows():
     changes = []
     for field in WATCH_FIELDS:
