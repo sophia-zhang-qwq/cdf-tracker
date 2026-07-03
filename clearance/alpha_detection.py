@@ -230,19 +230,9 @@ if len(mismatch_alert) > 0:
     alerts.extend(mismatch_alert)
 
 # update database
-new_df.to_sql(
-    "clearance_products",
-    conn,
-    if_exists="replace",
-    index=False
-)
+new_df.to_sql("clearance_products",conn,if_exists="replace",index=False)
 
-print(
-    "\nDatabase updated:",
-    len(new_df),
-    "products"
-)
-# ,
+print("\nDatabase updated:",len(new_df),"products")
 conn.close()
 
 # send email alerts
