@@ -137,6 +137,12 @@ if len(removed_products) > 0:
             f"HK${row['price']} \n"
             f"(Removed, Last Stock: {row['activityStock']})\n"
             f"Original Price: HK$ {row['originalPrice']}\n")
+# activity_sold_out = compare[
+#activity_sold_out = compare[
+#    (compare["activityStock_old"] > 0)
+#    &
+#    (compare["activityStock_new"] == 0)
+#]
 
 # alpha 4: watchlist detection
 # closely monitor a few selected products for any change in price or stock
