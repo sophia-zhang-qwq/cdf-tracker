@@ -39,31 +39,17 @@ except Exception:
 new_perfume = pd.read_csv("today_perfume.csv")
 new_skincare = pd.read_csv("today_skincare.csv")
 
-new_df = pd.concat(
-    [new_perfume, new_skincare],
-    ignore_index=True
-)
+new_df = pd.concat([new_perfume, new_skincare],ignore_index=True)
 
 if first_run:
-    new_df.to_sql(
-        "clearance_products",
-        conn,
-        if_exists="replace",
-        index=False
-    )
-
+    new_df.to_sql("clearance_products",conn,if_exists="replace",index=False)
     conn.close()
 
     print("Database initialized with", len(new_df), "products.")
     exit()
     
 # merge new data, find potential alpha
-compare = old_df.merge(
-    new_df,
-    on="productId",
-    how="outer",
-    suffixes=("_old", "_new")
-)
+compare = old_df.merge(new_df,on="productId",how="outer",suffixes=("_old", "_new"))
 # old database
 # productId     price       stock 
 # p1            290         2
@@ -107,8 +93,7 @@ if len(drops) > 0:
             # activityStock is actual stock for clearance price, stock is normal price stock
             f"Stock: {row['activityStock_old']} -> {row['activityStock_new']}\n"
             f"Discount: {row['discount_old']} -> {row['discount_new']}\n"
-            f"Original Price: HK$ {row['originalPrice_new']}\n"
-)
+            f"Original Price: HK$ {row['originalPrice_new']}\n")
 
 # alpha 2: new product alert
 # productID not in old_df but in new_df
@@ -122,10 +107,9 @@ if len(new_products) > 0:
             f"Price: HK${row['price']}\n"
             f"Stock: {row['activityStock']}\n"
             f"Discount: {row['discount']}\n"
-            f"Original Price: HK$ {row['originalPrice']}\n"
-)
+            f"Original Price: HK$ {row['originalPrice']}\n")
 
-# alpha 3： product sold out
+# alpha 3-1: Product Sold Out
 # productID in old_df but not in new_df
 # 真正的Removed(保留了)是指在新数据中没有这个productId了,说明这个产品已经下架了
 removed_products = old_df[~old_df["productId"].isin(new_df["productId"])]
@@ -137,6 +121,7 @@ if len(removed_products) > 0:
             f"HK${row['price']} \n"
             f"(Removed, Last Stock: {row['activityStock']})\n"
             f"Original Price: HK$ {row['originalPrice']}\n")
+# alpha 3-2: Clearance Sold Out 
 # Clearance Sold Out: activityStock > 0 -> 0, but stoc>0 and regular price
 activity_sold_out = compare[(compare["activityStock_old"] > 0) & (compare["activityStock_new"] == 0)]
 if len(activity_sold_out) > 0:
