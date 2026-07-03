@@ -140,6 +140,7 @@ if len(removed_products) > 0:
     )
 
 # alpha 4: watchlist detection
+# closely monitor a few selected products for any change in price or stock
 WATCHLIST = ['p15737930','p15828750','p15872383','p15810473']
 watch_alert = []
 WATCH_FIELDS = ["price","stock","discount","originalPrice","priceDiscount","activityDiscount","sellNum"]
