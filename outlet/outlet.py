@@ -58,18 +58,6 @@ total_pages = math.ceil(total_products / page_size)
 print(f"Total pages: {total_pages}")
 
 # -------------------------
-# Save brand/category mapping
-# -------------------------
-brand_map = data["filterList"]["brandList"]
-category_map = data["filterList"]["categoryList"]
-
-with open("brand_map.json", "w", encoding="utf-8") as f:
-    json.dump(brand_map,f,ensure_ascii=False,indent=2)
-
-with open("category_map.json", "w", encoding="utf-8") as f:
-    json.dump(category_map,f,ensure_ascii=False,indent=2)
-
-# -------------------------
 # iterate through pages to fetch member-exclusive products
 # -------------------------
 #while True:
@@ -107,7 +95,7 @@ print("=" * 60)
 print(f"Page 1/{total_pages} | Products: {len(all_products)}")
 
 # 保存完整 JSON
-with open("member.json","w",encoding="utf-8") as f:
+with open("outlet.json","w",encoding="utf-8") as f:
     json.dump(all_products,f,ensure_ascii=False,indent=2)
 
 rows = []
@@ -160,13 +148,6 @@ for p in all_products:
 
 df = pd.DataFrame(rows)
 
-df.to_csv(
-    "outlet.csv",
-    index=False,
-    encoding="utf-8-sig",
-)
-
-print(df.head())
-
+df.to_csv("outlet.csv",index=False,encoding="utf-8-sig")
 print("=" * 60)
 print("Done.")
