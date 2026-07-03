@@ -77,13 +77,7 @@ alerts = []
 
 # alpha 1: price drop alert
 # only show price change if before and after are both valid
-drops = compare[
-    compare["price_old"].notna()
-    &
-    compare["price_new"].notna()
-    &
-    (compare["price_old"] != compare["price_new"])
-]
+drops = compare[compare["price_old"].notna() & compare["price_new"].notna() & (compare["price_old"] != compare["price_new"])]
 if len(drops) > 0:
     alerts.append("=== PRICE DROPS ===")
     for _, row in drops.iterrows():
