@@ -127,22 +127,28 @@ if len(new_products) > 0:
 
 # alpha 3： product sold out
 # productID in old_df but not in new_df
+# 真正的Removed(保留了)是指在新数据中没有这个productId了,说明这个产品已经下架了
 removed_products = old_df[~old_df["productId"].isin(new_df["productId"])]
 if len(removed_products) > 0:
-    alerts.append("=== REMOVED PRODUCTS ===")
-
+    alerts.append("=== PRODUCT REMOVED FROM API ===")
     for _, row in removed_products.iterrows():
         alerts.append(
             f"{row['productName']}\n "
             f"HK${row['price']} \n"
             f"(Removed, Last Stock: {row['activityStock']})\n"
             f"Original Price: HK$ {row['originalPrice']}\n")
-# activity_sold_out = compare[
-#activity_sold_out = compare[
-#    (compare["activityStock_old"] > 0)
-#    &
-#    (compare["activityStock_new"] == 0)
-#]
+# Clearance Sold Out: activityStock > 0 -> 0, but stoc>0 and regular price
+activity_sold_out = compare[(compare["activityStock_old"] > 0) & (compare["activityStock_new"] == 0)]
+if len(activity_sold_out) > 0:
+    alerts.append("=== CLEARANCE SOLD OUT ===")
+    for _, row in activity_sold_out.iterrows():
+        alerts.append(
+            f"{row['productName_new']}\n"
+            f"Clearance Stock: {row['activityStock_old']} → {row['activityStock_new']}\n"
+            f"Regular Stock: {row['stock_old']} → {row['stock_new']}\n"
+            f"Price: HK${row['price_new']}\n"
+            f"Discount: {row['discount_new']}\n"
+            f"Original Price: HK${row['originalPrice_new']}\n")
 
 # alpha 4: watchlist detection
 # closely monitor a few selected products for any change in price or stock
