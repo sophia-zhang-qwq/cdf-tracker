@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 import sys
 from pathlib import Path
+import math
 
 # put file root directory into the Python search path, so that we can import modules from the root directory
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -17,7 +18,7 @@ URL = "https://www.cdf-beauty.com/api/prod/sqactivityproductsearch"
 referer = "https://www.cdf-beauty.com/myorderlist?selectedTabState=0&source=usercenter"
 headers = get_headers(referer)
 
-all_orders = []
+all_products = []
 
 
 # session不会重复打开界面,防止被踢
@@ -28,17 +29,46 @@ session.cookies.update(COOKIES)
 page = 1
 all_products = []
 
-while True:
-        
-    payload = {
-        "pageIndex": page,
-        "activityType": 23,
-        "status": "1",
-        "refreshProduct": True,
-        "activityId": "500022208",
-    }
+payload = {
+    "pageIndex": 1,
+    "activityType": 23,
+    "status": "1",
+    "refreshProduct": True,
+    "activityId": "500022208",
+}
 
-    r = session.get(URL,json=payload,timeout=30)
+r = session.post(URL, json=payload)
+data = r.json()
+total_products = data["count"]
+print(f"Total products: {total_products}")
+page_size = len(data["list"])
+print(page_size)
+total_pages = math.ceil(total_products / page_size)
+print(f"Total pages: {total_pages}")
+
+# -------------------------
+# Save brand/category mapping
+# -------------------------
+brand_map = data["filterList"]["brandList"]
+category_map = data["filterList"]["categoryList"]
+
+with open("brand_map.json", "w", encoding="utf-8") as f:
+    json.dump(brand_map,f,ensure_ascii=False,indent=2)
+
+with open("category_map.json", "w", encoding="utf-8") as f:
+    json.dump(category_map,f,ensure_ascii=False,indent=2)
+
+# -------------------------
+# iterate through pages to fetch member-exclusive products
+# -------------------------
+#while True:
+for page in range(1, total_pages + 1):
+    payload["pageIndex"] = page
+
+    # sqactivityproductsearch API does not allow GET requests, 
+    # so we use POST instead
+    #r = session.get(URL,json=payload,timeout=30)
+    r = session.post(URL,json=payload,timeout=30)
 
     r.raise_for_status()
 
@@ -53,34 +83,28 @@ while True:
     if len(orders) == 0:
         break
 
-    print(f"Fetched {len(orders)} orders")
+    all_products.extend(orders)
 
-    all_orders.extend(orders)
+    if page % 10 == 0 or page == total_pages:
+        print(f"Page {page}/{total_pages} | " f"Products: {len(all_products)}")
+
+    page += 1
+
     time.sleep(0.5)
 
 print("=" * 60)
-print(f"Total Orders: {len(all_products)}")
+print(f"Page 1/{total_pages} | Products: {len(all_products)}")
 
 # 保存完整 JSON
-with open(
-    "member.json",
-    "w",
-    encoding="utf-8"
-) as f:
-
-    json.dump(
-        all_products,
-        f,
-        ensure_ascii=False,
-        indent=2,
-    )
+with open("member.json","w",encoding="utf-8") as f:
+    json.dump(all_products,f,ensure_ascii=False,indent=2)
 
 rows = []
 
 for p in all_products:
 
     price = p.get("price")
-    original_price = p.get("originalPrice")
+    original_price = p.get("originalPriceCopy")
     if price!=0 and original_price!=0:
         discount = round(price/original_price * 10, 1)
     else:
