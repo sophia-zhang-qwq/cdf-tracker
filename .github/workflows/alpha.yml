@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "13,43 * * * *"      # 每小时13,43分触发
+    - cron: "*/18 * * * *"      # 每18分钟触发一次
 
   workflow_dispatch:
 
