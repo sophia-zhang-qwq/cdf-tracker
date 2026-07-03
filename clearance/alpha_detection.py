@@ -139,12 +139,45 @@ if len(removed_products) > 0:
             f"Original Price: HK$ {row['originalPrice']}\n"
     )
 
-# alpha 4: restock alert
+# alpha 4: watchlist detection
+WATCHLIST = ['p15737930','p15828750','p15872383','p15810473']
+watch_alert = []
+WATCH_FIELDS = ["price","stock","discount","originalPrice","priceDiscount","activityDiscount","sellNum"]
+watch_compare = compare[compare["productId"].isin(WATCHLIST)]
+for _, row in watch_compare.iterrows():
+    changes = []
+    for field in WATCH_FIELDS:
+        old_col = f"{field}_old"
+        new_col = f"{field}_new"
+        # skip if column doesn't exist
+        if old_col not in compare.columns:
+            continue
+        if new_col not in compare.columns:
+            continue
+        old = row[old_col]
+        new = row[new_col]
+        # both missing
+        if pd.isna(old) and pd.isna(new):
+            continue
+        # changed
+        if pd.isna(old) != pd.isna(new) or old != new:
+            changes.append(f"{field}: {old} -> {new}")
+    if len(changes) > 0:
+        name = row["productName_new"]
+        if pd.isna(name):
+            name = row["productName_old"]
+        watch_alert.append(f"{name}\n"+ "\n".join(changes)+ "\n")
+if len(watch_alert) > 0:
+    alerts.append("=== WATCHLIST CHANGES ===")
+    alerts.extend(watch_alert)
+
+
+# alpha 5: restock alert
 # TO-DO
 
 mismatch_alert = []
 
-# alpha 5: price mismatch detection
+# alpha 6: price mismatch detection
 for _, row in new_df.iterrows():
 
     alpha_rules = []
