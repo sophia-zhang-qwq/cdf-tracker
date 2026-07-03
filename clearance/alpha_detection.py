@@ -100,12 +100,12 @@ drops = compare[
 ]
 if len(drops) > 0:
     alerts.append("=== PRICE DROPS ===")
-
     for _, row in drops.iterrows():
         alerts.append(
             f"{row['productName_old']}\n"
             f"Price: HK${row['price_old']} -> HK${row['price_new']}\n"
-            f"Stock: {row['stock_old']} -> {row['stock_new']}\n"
+            # activityStock is actual stock for clearance price, stock is normal price stock
+            f"Stock: {row['activityStock_old']} -> {row['activityStock_new']}\n"
             f"Discount: {row['discount_old']} -> {row['discount_new']}\n"
             f"Original Price: HK$ {row['originalPrice_new']}\n"
 )
@@ -120,7 +120,7 @@ if len(new_products) > 0:
         alerts.append(
             f"{row['productName']}\n"
             f"Price: HK${row['price']}\n"
-            f"Stock: {row['stock']}\n"
+            f"Stock: {row['activityStock']}\n"
             f"Discount: {row['discount']}\n"
             f"Original Price: HK$ {row['originalPrice']}\n"
 )
@@ -135,15 +135,14 @@ if len(removed_products) > 0:
         alerts.append(
             f"{row['productName']}\n "
             f"HK${row['price']} \n"
-            f"(Removed, Last Stock: {row['stock']})\n"
-            f"Original Price: HK$ {row['originalPrice']}\n"
-    )
+            f"(Removed, Last Stock: {row['activityStock']})\n"
+            f"Original Price: HK$ {row['originalPrice']}\n")
 
 # alpha 4: watchlist detection
 # closely monitor a few selected products for any change in price or stock
 WATCHLIST = ['p15737930','p15828750','p15872383','p15810473']
 watch_alert = []
-WATCH_FIELDS = ["price","stock","discount","originalPrice","priceDiscount","activityDiscount","sellNum"]
+WATCH_FIELDS = ["price","stock","activityStock","discount","originalPrice","priceDiscount","activityDiscount","sellNum"]
 watch_compare = compare[compare["productId"].isin(WATCHLIST)]
 for _, row in watch_compare.iterrows():
     changes = []
@@ -174,7 +173,18 @@ if len(watch_alert) > 0:
 
 
 # alpha 5: restock alert
-# TO-DO
+# activityStock 0 -> 5 补货啦
+restock = compare[(compare["activityStock_old"] == 0) & (compare["activityStock_new"] > 0)]
+if len(restock) > 0:
+    alerts.append("=== RESTOCK ALERT ===")
+    for _, row in restock.iterrows():
+        name = row.get("productName_new")
+        alerts.append(
+            f"{name}\n"
+            f"Clearance Stock: {row['activityStock_old']} → {row['activityStock_new']}\n"
+            f"Price: HK${row['price_new']}\n"
+            f"Discount: {row['discount_new']}\n"
+            f"Original Price: HK${row['originalPrice_new']}\n")
 
 mismatch_alert = []
 
@@ -221,8 +231,7 @@ for _, row in new_df.iterrows():
         f"Original Price: HK${row['originalPrice']}\n"
         f"\n"
         + "\n".join(alpha_rules)
-        + "\n"
-    )
+        + "\n")
 
 # only print once
 if len(mismatch_alert) > 0:
