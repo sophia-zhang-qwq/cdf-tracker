@@ -248,16 +248,6 @@ conn.close()
 alert_text = "\n".join(alerts)
 print(alert_text)
 
-"""
-=== PRICE DROPS ===
-LANCOME奇迹香氛:
-HK$290 -> HK$99
-
-=== NEW PRODUCTS ===
-La Mer精华:
-HK$299
-"""
-
 if len(alert_text) > 0:
     send_alert(alert_text)
 else:
