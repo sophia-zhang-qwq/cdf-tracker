@@ -12,6 +12,192 @@
       "tuanJoinUrl": null
     },
     "evaluated": false,
+    "id": 310022339686,
+    "mainOrderId": 574513319686,
+    "idCardUploadUrl": "",
+    "logisticsInfo": null,
+    "operaButtons": [],
+    "payDeadlineTime": 1783149854000,
+    "receiveTime": 0,
+    "saveOrderTime": 1783149566000,
+    "sellerOrderList": [
+      {
+        "sellerInfo": {
+          "avatar": "https://pic.cdfmembers.com/cd/shenqimgmt/63908eba8b4bea5d108c6a50.png",
+          "id": 604163145,
+          "name": "cdf Beauty 線上商城",
+          "wxAppId": null
+        },
+        "groupLeaderInfo": null,
+        "subOrderList": [
+          {
+            "id": 310022339686,
+            "prodList": [
+              {
+                "catalogId": "c85549941",
+                "activityId": 500022199,
+                "activityType": 22,
+                "activityName": "特惠清倉",
+                "activityLabel": "臨期清倉",
+                "deliveryType": 999,
+                "desc": "HR赫蓮娜活顏修復舒緩面膜 50ML【有效期至：2027年1月】",
+                "id": "p15737930",
+                "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/62284534de8ebe33862280c0.jpg/lb400",
+                "preSale": false,
+                "price": 959,
+                "points": 0,
+                "originalPrice": 3195,
+                "priceType": 3,
+                "purchaseNum": 1,
+                "refundType": 1,
+                "sellType": 0,
+                "skuInfo": "",
+                "supportSevenDaysRefund": false,
+                "tariffType": 0,
+                "version": "0",
+                "packageDeliveryType": 1,
+                "rebateAmount": 0,
+                "hgProduct": false,
+                "refundButton": {
+                  "state": 1,
+                  "text": "",
+                  "url": "",
+                  "msg": "",
+                  "type": 0,
+                  "refundId": null,
+                  "style": 0
+                },
+                "domestic": false,
+                "nationType": 3,
+                "hideBorder": true,
+                "exchangeCouponProduct": false,
+                "hgProductType": 0,
+                "inQualificationsGroup": false,
+                "freeGoods": false,
+                "shipperId": 0,
+                "shipperName": null,
+                "bondedArea": 0,
+                "skuId": "C039977",
+                "masterCategoryId": 3004,
+                "categoryId": 3022,
+                "thirdCategoryId": 1097,
+                "productShipperType": 0,
+                "brandId": 14599,
+                "specialSale": false,
+                "pspProduct": false
+              }
+            ],
+            "totalFreight": 0,
+            "totalPackageAmount": 0,
+            "totalPiece": 1,
+            "totalPrice": 959,
+            "totalPoints": 0,
+            "totalSellerCouponAmount": 0,
+            "totalFullPayPrice": 959,
+            "totalEarnest": null,
+            "totalEarnestPromotions": null,
+            "earnestOrderType": 0,
+            "finalPayStartTime": 0,
+            "finalPayEndTime": 0,
+            "earnestPayTime": 0,
+            "totalExchangePrice": null,
+            "anliMemberPrice": null,
+            "rebateAmount": 0,
+            "warehouseName": "cdf Beauty",
+            "groupBuyingId": null,
+            "groupBuyingName": null,
+            "groupLeaderId": 0,
+            "groupLeaderAvatar": null,
+            "groupLeaderName": null,
+            "orderAgainInfo": null,
+            "orderType": 0,
+            "orderAbnormalInfo": null,
+            "everyDayOfflineOrder": false,
+            "isPaid": true
+          }
+        ]
+      }
+    ],
+    "stateCode": 17,
+    "stateText": "備貨中",
+    "totalFreight": 0,
+    "totalPackageAmount": 0,
+    "totalNumber": 1,
+    "totalPrice": 959,
+    "totalPoints": 0,
+    "totalFullPayPrice": 959,
+    "totalEarnestPayPrice": 959,
+    "totalPayPostPayPrice": 0,
+    "canEvaluate": false,
+    "paidInFull": true,
+    "address": null,
+    "consigneeIdCardInfo": null,
+    "couponGroupId": "",
+    "hasPlatformCoupon": false,
+    "hasSellerCoupon": false,
+    "hasAutoDelivery": false,
+    "domesticDelivered": false,
+    "logisticsUrl": "http://m.shop2cn.com/logistics/index.html?userType=2&orderId=310022339686",
+    "evaluateCoin": 0,
+    "payTime": "2026-07-04 15:19:43",
+    "totalAppDiscount": 0,
+    "shenqiOrder": true,
+    "symbol": "HK$",
+    "foreign": true,
+    "exchangeRate": 0,
+    "totalExchangePrice": 0,
+    "offlinePayment": 0,
+    "paymentMessage": null,
+    "sqPayType": null,
+    "collectionGoods": true,
+    "smartCabinet": false,
+    "pickupStatus": 0,
+    "shenqiIdcardRequirement": 0,
+    "purchaserIdcardId": null,
+    "riskOrder": false,
+    "sqBalance": null,
+    "sqBalanceEnable": false,
+    "finalRefundTime": 1790925583000,
+    "guideOrder": false,
+    "remindShip": false,
+    "cantRefund": false,
+    "apply": false,
+    "view": false,
+    "reApply": false,
+    "history": false,
+    "showInbuyWatermark": false,
+    "servicePointInfo": null,
+    "enableServicePoint": true,
+    "customsClearanceGuideUrl": null,
+    "reserveOrder": false,
+    "refundAddShoppingCart": true,
+    "channelPageId": null,
+    "deliveryOrder": false,
+    "contactCustomerInvoice": false,
+    "integralShopOrder": false,
+    "showConfirmReceive": false,
+    "autoConfirmTime": null,
+    "needWechatConfirm": null,
+    "tranOrder": false,
+    "dfsOrderInfo": null,
+    "payChannel": "收银台",
+    "needUploadIdCard": false,
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
+  },
+  {
+    "autoReceiveTime": 0,
+    "deliveryDateTime": "2026-07-04 09:29:35",
+    "receiveDateTime": null,
+    "biz": {
+      "bizId": null,
+      "bizStatus": 0,
+      "bizSubType": 0,
+      "bizType": 0,
+      "tuanDetailUrl": null,
+      "tuanJoinUrl": null
+    },
+    "evaluated": false,
     "id": 309925079686,
     "mainOrderId": 574363069686,
     "idCardUploadUrl": "",
@@ -118,8 +304,8 @@
         ]
       }
     ],
-    "stateCode": 17,
-    "stateText": "備貨中",
+    "stateCode": 3,
+    "stateText": "配送中",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 2,
@@ -151,7 +337,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 0,
+    "pickupStatus": 1,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -170,7 +356,7 @@
     "enableServicePoint": true,
     "customsClearanceGuideUrl": null,
     "reserveOrder": false,
-    "refundAddShoppingCart": true,
+    "refundAddShoppingCart": false,
     "channelPageId": null,
     "deliveryOrder": false,
     "contactCustomerInvoice": false,
@@ -202,7 +388,15 @@
     "mainOrderId": 574185029686,
     "idCardUploadUrl": "",
     "logisticsInfo": null,
-    "operaButtons": [],
+    "operaButtons": [
+      {
+        "operationId": 309851099686,
+        "text": "去提貨",
+        "type": 26,
+        "orderIdList": null,
+        "desc": null
+      }
+    ],
     "payDeadlineTime": 1783007405000,
     "receiveTime": 0,
     "saveOrderTime": 1783007117000,
@@ -305,7 +499,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "配送中",
+    "stateText": "待提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 5,
@@ -337,7 +531,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 1,
+    "pickupStatus": 2,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -388,7 +582,15 @@
     "mainOrderId": 574099739686,
     "idCardUploadUrl": "",
     "logisticsInfo": null,
-    "operaButtons": [],
+    "operaButtons": [
+      {
+        "operationId": 309803209686,
+        "text": "去提貨",
+        "type": 26,
+        "orderIdList": null,
+        "desc": null
+      }
+    ],
     "payDeadlineTime": 1782982299000,
     "receiveTime": 0,
     "saveOrderTime": 1782982011000,
@@ -491,7 +693,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "配送中",
+    "stateText": "待提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 5,
@@ -523,7 +725,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 1,
+    "pickupStatus": 2,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -2388,9 +2590,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -2635,9 +2837,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -2882,9 +3084,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3182,9 +3384,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3535,9 +3737,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "微信",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3888,9 +4090,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -4241,9 +4443,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -4594,9 +4796,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -4841,9 +5043,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -5141,9 +5343,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
