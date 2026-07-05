@@ -25,12 +25,12 @@ WATCHLIST = {
     },
 
     "EL Cleanser Gel": {
-        "productId": "15828750",
+        "productId": "p15828750",
         "note": "长期观察"
     },
 
     "La Mer Cream": {
-        "productId": "15810473",
+        "productId": "p15810473",
         "note": "长期观察"
     },
     "EL Nutriv Set": {
