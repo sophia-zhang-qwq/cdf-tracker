@@ -192,7 +192,7 @@ for _, row in new_df.iterrows():
             f"Rule 1: Discount Price != Price "
             f"({row['discount']} != {row['price']})")
 
-    # Rule 2:
+    # Rule 2: discount != price/originalPrice
     if (pd.notna(row["priceDiscount"]) and pd.notna(row["originalPrice"])):
         actual_discount = (row["price"]/row["originalPrice"] * 10)
 
@@ -231,7 +231,6 @@ if len(mismatch_alert) > 0:
     alerts.append("=== POSSIBLE PRICE MISMATCH ARBITRAGE ===")
     alerts.extend(mismatch_alert)
 
-new_df["sellNum"] = pd.to_numeric(new_df["sellNum"],errors="coerce")
 # update database
 new_df.to_sql("clearance_products",conn,if_exists="replace",index=False)
 
