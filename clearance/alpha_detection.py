@@ -133,7 +133,8 @@ if len(activity_sold_out) > 0:
 # closely monitor a few selected products for any change in price or stock
 #WATCHLIST = ['p15737930','p15828750','p15872383','p15810473']
 watch_alert = []
-WATCH_FIELDS = ["price","stock","activityStock","discount","originalPrice","priceDiscount","activityDiscount","sellNum"]
+# "sellNum" is not relevant for watchlist
+WATCH_FIELDS = ["price","stock","activityStock","discount","originalPrice","priceDiscount","activityDiscount"]
 WATCH_IDS = [v["productId"] for v in WATCHLIST.values()]
 watch_compare = compare[compare["productId"].isin(WATCH_IDS)]
 for _, row in watch_compare.iterrows():
@@ -230,6 +231,7 @@ if len(mismatch_alert) > 0:
     alerts.append("=== POSSIBLE PRICE MISMATCH ARBITRAGE ===")
     alerts.extend(mismatch_alert)
 
+new_df["sellNum"] = pd.to_numeric(new_df["sellNum"],errors="coerce")
 # update database
 new_df.to_sql("clearance_products",conn,if_exists="replace",index=False)
 
