@@ -30,10 +30,7 @@ def get_latest_message():
 while True:
     r = requests.get(
         url + "/getUpdates",
-        params={
-            "offset": last_update_id + 1
-        }
-    ).json()
+        params={"offset": last_update_id + 1}).json()
 
     for update in r["result"]:
         last_update_id = update["update_id"]
