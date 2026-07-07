@@ -1,7 +1,7 @@
 [
   {
     "autoReceiveTime": 0,
-    "deliveryDateTime": null,
+    "deliveryDateTime": "2026-07-07 09:33:33",
     "receiveDateTime": null,
     "biz": {
       "bizId": null,
@@ -118,8 +118,8 @@
         ]
       }
     ],
-    "stateCode": 17,
-    "stateText": "備貨中",
+    "stateCode": 3,
+    "stateText": "配送中",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 3,
@@ -151,7 +151,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 0,
+    "pickupStatus": 1,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -170,7 +170,7 @@
     "enableServicePoint": true,
     "customsClearanceGuideUrl": null,
     "reserveOrder": false,
-    "refundAddShoppingCart": true,
+    "refundAddShoppingCart": false,
     "channelPageId": null,
     "deliveryOrder": false,
     "contactCustomerInvoice": false,
@@ -187,7 +187,7 @@
   },
   {
     "autoReceiveTime": 0,
-    "deliveryDateTime": null,
+    "deliveryDateTime": "2026-07-07 09:35:12",
     "receiveDateTime": null,
     "biz": {
       "bizId": null,
@@ -304,8 +304,8 @@
         ]
       }
     ],
-    "stateCode": 17,
-    "stateText": "備貨中",
+    "stateCode": 3,
+    "stateText": "配送中",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 3,
@@ -337,7 +337,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 0,
+    "pickupStatus": 1,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -356,7 +356,7 @@
     "enableServicePoint": true,
     "customsClearanceGuideUrl": null,
     "reserveOrder": false,
-    "refundAddShoppingCart": true,
+    "refundAddShoppingCart": false,
     "channelPageId": null,
     "deliveryOrder": false,
     "contactCustomerInvoice": false,
@@ -374,7 +374,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-06 09:30:42",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-07-07 16:33:49",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -388,9 +388,17 @@
     "mainOrderId": 574513319686,
     "idCardUploadUrl": "",
     "logisticsInfo": null,
-    "operaButtons": [],
+    "operaButtons": [
+      {
+        "operationId": 310022339686,
+        "text": "刪除訂單",
+        "type": 11,
+        "orderIdList": null,
+        "desc": null
+      }
+    ],
     "payDeadlineTime": 1783149854000,
-    "receiveTime": 0,
+    "receiveTime": 1783413229000,
     "saveOrderTime": 1783149566000,
     "sellerOrderList": [
       {
@@ -491,7 +499,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "配送中",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 1,
@@ -523,7 +531,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 1,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -560,7 +568,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-04 09:29:35",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-07-07 16:32:50",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -577,14 +585,14 @@
     "operaButtons": [
       {
         "operationId": 309925079686,
-        "text": "去提貨",
-        "type": 26,
+        "text": "刪除訂單",
+        "type": 11,
         "orderIdList": null,
         "desc": null
       }
     ],
     "payDeadlineTime": 1783074261000,
-    "receiveTime": 0,
+    "receiveTime": 1783413170000,
     "saveOrderTime": 1783073973000,
     "sellerOrderList": [
       {
@@ -685,7 +693,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "待提貨",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 2,
@@ -717,7 +725,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 2,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -754,7 +762,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-03 09:17:51",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-07-07 16:31:53",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -771,14 +779,14 @@
     "operaButtons": [
       {
         "operationId": 309851099686,
-        "text": "去提貨",
-        "type": 26,
+        "text": "刪除訂單",
+        "type": 11,
         "orderIdList": null,
         "desc": null
       }
     ],
     "payDeadlineTime": 1783007405000,
-    "receiveTime": 0,
+    "receiveTime": 1783413113000,
     "saveOrderTime": 1783007117000,
     "sellerOrderList": [
       {
@@ -879,7 +887,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "待提貨",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 5,
@@ -911,7 +919,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 2,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -948,7 +956,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-03 09:15:21",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-07-07 16:30:05",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -965,14 +973,14 @@
     "operaButtons": [
       {
         "operationId": 309803209686,
-        "text": "去提貨",
-        "type": 26,
+        "text": "刪除訂單",
+        "type": 11,
         "orderIdList": null,
         "desc": null
       }
     ],
     "payDeadlineTime": 1782982299000,
-    "receiveTime": 0,
+    "receiveTime": 1783413005000,
     "saveOrderTime": 1782982011000,
     "sellerOrderList": [
       {
@@ -1073,7 +1081,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "待提貨",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 5,
@@ -1105,7 +1113,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 2,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -2264,9 +2272,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -2458,9 +2466,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -2970,9 +2978,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3217,9 +3225,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3464,9 +3472,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3764,9 +3772,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -4117,9 +4125,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "微信",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -4470,9 +4478,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -4823,9 +4831,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -5176,9 +5184,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -5423,9 +5431,9 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
