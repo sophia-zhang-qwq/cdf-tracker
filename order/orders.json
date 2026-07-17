@@ -2,7 +2,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-07 09:33:33",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-07-12 15:07:52",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -16,9 +16,17 @@
     "mainOrderId": 575103629686,
     "idCardUploadUrl": "",
     "logisticsInfo": null,
-    "operaButtons": [],
+    "operaButtons": [
+      {
+        "operationId": 310353149686,
+        "text": "刪除訂單",
+        "type": 11,
+        "orderIdList": null,
+        "desc": null
+      }
+    ],
     "payDeadlineTime": 1783336907000,
-    "receiveTime": 0,
+    "receiveTime": 1783840072000,
     "saveOrderTime": 1783336619000,
     "sellerOrderList": [
       {
@@ -65,7 +73,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -119,7 +128,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "配送中",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 3,
@@ -151,7 +160,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 1,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -181,6 +190,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -188,7 +198,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-07 09:35:12",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-07-12 15:07:07",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -202,9 +212,17 @@
     "mainOrderId": 575103289686,
     "idCardUploadUrl": "",
     "logisticsInfo": null,
-    "operaButtons": [],
+    "operaButtons": [
+      {
+        "operationId": 310344299686,
+        "text": "刪除訂單",
+        "type": 11,
+        "orderIdList": null,
+        "desc": null
+      }
+    ],
     "payDeadlineTime": 1783336668000,
-    "receiveTime": 0,
+    "receiveTime": 1783840027000,
     "saveOrderTime": 1783336380000,
     "sellerOrderList": [
       {
@@ -251,7 +269,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -305,7 +324,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "配送中",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 3,
@@ -337,7 +356,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 1,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -367,6 +386,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -445,7 +465,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -561,6 +582,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -639,7 +661,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -755,6 +778,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -833,7 +857,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -949,6 +974,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -1027,7 +1053,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -1143,6 +1170,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -1221,7 +1249,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -1274,7 +1303,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -1390,6 +1420,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -1468,7 +1499,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -1584,6 +1616,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -1662,7 +1695,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -1778,6 +1812,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -1856,7 +1891,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -1909,7 +1945,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -1962,7 +1999,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2078,6 +2116,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -2156,7 +2195,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2272,9 +2312,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -2350,7 +2391,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2466,9 +2508,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -2544,7 +2587,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2597,7 +2641,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2650,7 +2695,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2703,7 +2749,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2756,7 +2803,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2809,7 +2857,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2862,7 +2911,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -2978,9 +3028,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -3056,7 +3107,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -3109,7 +3161,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -3225,9 +3278,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -3303,7 +3357,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -3356,7 +3411,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -3472,9 +3528,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -3550,7 +3607,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -3603,7 +3661,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -3656,7 +3715,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -3772,9 +3832,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -3850,7 +3911,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -3903,7 +3965,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -3956,7 +4019,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4009,7 +4073,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4125,9 +4190,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "微信",
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -4203,7 +4269,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4256,7 +4323,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4309,7 +4377,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4362,7 +4431,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4478,9 +4548,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": null,
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -4556,7 +4627,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4609,7 +4681,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4662,7 +4735,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4715,7 +4789,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4831,9 +4906,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": null,
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -4909,7 +4985,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -4962,7 +5039,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -5015,7 +5093,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -5068,7 +5147,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -5184,9 +5264,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -5262,7 +5343,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -5315,7 +5397,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -5431,9 +5514,10 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
-    "packageDelivery": false,
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
   },
   {
     "autoReceiveTime": 0,
@@ -5509,7 +5593,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -5562,7 +5647,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -5615,7 +5701,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -5731,6 +5818,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -5809,7 +5897,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -5925,6 +6014,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -6003,7 +6093,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -6056,7 +6147,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -6172,6 +6264,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -6250,7 +6343,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -6366,6 +6460,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -6444,7 +6539,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -6497,7 +6593,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -6550,7 +6647,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -6666,6 +6764,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -6744,7 +6843,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -6860,6 +6960,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "微信",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -6938,7 +7039,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -7054,6 +7156,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "微信",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -7132,7 +7235,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -7248,6 +7352,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "微信",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -7326,7 +7431,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -7379,7 +7485,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -7495,6 +7602,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "微信",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
@@ -7573,7 +7681,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -7626,7 +7735,8 @@
                   "msg": "",
                   "type": 0,
                   "refundId": null,
-                  "style": 0
+                  "style": 0,
+                  "continueRefundButton": null
                 },
                 "domestic": false,
                 "nationType": 3,
@@ -7742,6 +7852,7 @@
     "tranOrder": false,
     "dfsOrderInfo": null,
     "payChannel": "微信",
+    "promisedDeliveryTimeDesc": null,
     "needUploadIdCard": false,
     "delayAutoReceiveTime": false,
     "packageDelivery": false
