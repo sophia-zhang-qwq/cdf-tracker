@@ -135,8 +135,14 @@ if len(activity_sold_out) > 0:
 watch_alert = []
 # "sellNum" is not relevant for watchlist
 WATCH_FIELDS = ["price","stock","activityStock","discount","originalPrice","priceDiscount","activityDiscount"]
-WATCH_IDS = [v["productId"] for v in WATCHLIST.values()]
-watch_compare = compare[compare["productId"].isin(WATCH_IDS)]
+
+WATCH_PRICE = 200
+# ===== manual watchlist =====
+#WATCH_IDS = [v["productId"] for v in WATCHLIST.values()]
+#watch_compare = compare[compare["productId"].isin(WATCH_IDS)]
+# ===== auto watchlist =====
+watch_compare = compare[(compare["price_old"].fillna(0) >= WATCH_PRICE) | (compare["price_new"].fillna(0) >= WATCH_PRICE)]
+
 for _, row in watch_compare.iterrows():
     changes = []
     for field in WATCH_FIELDS:
