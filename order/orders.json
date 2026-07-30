@@ -1,6 +1,202 @@
 [
   {
     "autoReceiveTime": 0,
+    "deliveryDateTime": "2026-07-21 09:17:02",
+    "receiveDateTime": "2026-07-29 18:02:52",
+    "biz": {
+      "bizId": null,
+      "bizStatus": 0,
+      "bizSubType": 0,
+      "bizType": 0,
+      "tuanDetailUrl": null,
+      "tuanJoinUrl": null
+    },
+    "evaluated": false,
+    "id": 312375219686,
+    "mainOrderId": 578755619686,
+    "idCardUploadUrl": "",
+    "logisticsInfo": null,
+    "operaButtons": [
+      {
+        "operationId": 312375219686,
+        "text": "刪除訂單",
+        "type": 11,
+        "orderIdList": null,
+        "desc": null
+      }
+    ],
+    "payDeadlineTime": 1784551231000,
+    "receiveTime": 1785319372000,
+    "saveOrderTime": 1784550943000,
+    "sellerOrderList": [
+      {
+        "sellerInfo": {
+          "avatar": "https://pic.cdfmembers.com/cd/shenqimgmt/63908eba8b4bea5d108c6a50.png",
+          "id": 604163145,
+          "name": "cdf Beauty 線上商城",
+          "wxAppId": null
+        },
+        "groupLeaderInfo": null,
+        "subOrderList": [
+          {
+            "id": 312375219686,
+            "prodList": [
+              {
+                "catalogId": "c85549941",
+                "activityId": 500022199,
+                "activityType": 22,
+                "activityName": "特惠清倉",
+                "activityLabel": "臨期清倉",
+                "deliveryType": 999,
+                "desc": "HR赫蓮娜活顏修復舒緩面膜 50ML【有效期至：2027年1月】",
+                "id": "p15737930",
+                "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/62284534de8ebe33862280c0.jpg/lb400",
+                "preSale": false,
+                "price": 959,
+                "points": 0,
+                "originalPrice": 3195,
+                "priceType": 3,
+                "purchaseNum": 2,
+                "refundType": 1,
+                "sellType": 0,
+                "skuInfo": "",
+                "supportSevenDaysRefund": false,
+                "tariffType": 0,
+                "version": "0",
+                "packageDeliveryType": 1,
+                "rebateAmount": 0,
+                "hgProduct": false,
+                "refundButton": {
+                  "state": 1,
+                  "text": "",
+                  "url": "",
+                  "msg": "",
+                  "type": 0,
+                  "refundId": null,
+                  "style": 0,
+                  "continueRefundButton": null
+                },
+                "domestic": false,
+                "nationType": 3,
+                "hideBorder": true,
+                "exchangeCouponProduct": false,
+                "hgProductType": 0,
+                "inQualificationsGroup": false,
+                "freeGoods": false,
+                "shipperId": 0,
+                "shipperName": null,
+                "bondedArea": 0,
+                "skuId": "C039977",
+                "masterCategoryId": 3004,
+                "categoryId": 3022,
+                "thirdCategoryId": 1097,
+                "productShipperType": 0,
+                "brandId": 14599,
+                "specialSale": false,
+                "pspProduct": false
+              }
+            ],
+            "totalFreight": 0,
+            "totalPackageAmount": 0,
+            "totalPiece": 2,
+            "totalPrice": 1778.88,
+            "totalPoints": 0,
+            "totalSellerCouponAmount": 0,
+            "totalFullPayPrice": 1778.88,
+            "totalEarnest": null,
+            "totalEarnestPromotions": null,
+            "earnestOrderType": 0,
+            "finalPayStartTime": 0,
+            "finalPayEndTime": 0,
+            "earnestPayTime": 0,
+            "totalExchangePrice": null,
+            "anliMemberPrice": null,
+            "rebateAmount": 0,
+            "warehouseName": "cdf Beauty",
+            "groupBuyingId": null,
+            "groupBuyingName": null,
+            "groupLeaderId": 0,
+            "groupLeaderAvatar": null,
+            "groupLeaderName": null,
+            "orderAgainInfo": null,
+            "orderType": 0,
+            "orderAbnormalInfo": null,
+            "everyDayOfflineOrder": false,
+            "isPaid": true
+          }
+        ]
+      }
+    ],
+    "stateCode": 3,
+    "stateText": "已提貨",
+    "totalFreight": 0,
+    "totalPackageAmount": 0,
+    "totalNumber": 2,
+    "totalPrice": 1778.88,
+    "totalPoints": 0,
+    "totalFullPayPrice": 1778.88,
+    "totalEarnestPayPrice": 1778.88,
+    "totalPayPostPayPrice": 0,
+    "canEvaluate": false,
+    "paidInFull": true,
+    "address": null,
+    "consigneeIdCardInfo": null,
+    "couponGroupId": "",
+    "hasPlatformCoupon": false,
+    "hasSellerCoupon": false,
+    "hasAutoDelivery": false,
+    "domesticDelivered": false,
+    "logisticsUrl": "http://m.shop2cn.com/logistics/index.html?userType=2&orderId=312375219686",
+    "evaluateCoin": 0,
+    "payTime": "2026-07-20 20:36:22",
+    "totalAppDiscount": 0,
+    "shenqiOrder": true,
+    "symbol": "HK$",
+    "foreign": true,
+    "exchangeRate": 0,
+    "totalExchangePrice": 0,
+    "offlinePayment": 0,
+    "paymentMessage": null,
+    "sqPayType": null,
+    "collectionGoods": true,
+    "smartCabinet": false,
+    "pickupStatus": 3,
+    "shenqiIdcardRequirement": 0,
+    "purchaserIdcardId": null,
+    "riskOrder": false,
+    "sqBalance": null,
+    "sqBalanceEnable": false,
+    "finalRefundTime": 1792326982000,
+    "guideOrder": false,
+    "remindShip": false,
+    "cantRefund": false,
+    "apply": false,
+    "view": false,
+    "reApply": false,
+    "history": false,
+    "showInbuyWatermark": false,
+    "servicePointInfo": null,
+    "enableServicePoint": true,
+    "customsClearanceGuideUrl": null,
+    "reserveOrder": false,
+    "refundAddShoppingCart": false,
+    "channelPageId": null,
+    "deliveryOrder": false,
+    "contactCustomerInvoice": false,
+    "integralShopOrder": false,
+    "showConfirmReceive": false,
+    "autoConfirmTime": null,
+    "needWechatConfirm": null,
+    "tranOrder": false,
+    "dfsOrderInfo": null,
+    "payChannel": "收银台",
+    "promisedDeliveryTimeDesc": null,
+    "needUploadIdCard": false,
+    "delayAutoReceiveTime": false,
+    "packageDelivery": false
+  },
+  {
+    "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-07 09:33:33",
     "receiveDateTime": "2026-07-12 15:07:52",
     "biz": {
@@ -4219,6 +4415,13 @@
         "type": 11,
         "orderIdList": null,
         "desc": null
+      },
+      {
+        "operationId": 283370799686,
+        "text": "再買一單",
+        "type": 12,
+        "orderIdList": null,
+        "desc": null
       }
     ],
     "payDeadlineTime": 1769115680000,
@@ -4476,7 +4679,21 @@
             "groupLeaderId": 0,
             "groupLeaderAvatar": null,
             "groupLeaderName": null,
-            "orderAgainInfo": null,
+            "orderAgainInfo": {
+              "invalidCatalogIdList": [
+                "c85759022",
+                "c85759024",
+                "c85600972"
+              ],
+              "validCatalogList": [
+                {
+                  "catalogId": "c85556669",
+                  "num": 1,
+                  "price": 1540
+                }
+              ],
+              "couponPromotionDesc": null
+            },
             "orderType": 0,
             "orderAbnormalInfo": null,
             "everyDayOfflineOrder": false,
@@ -4575,6 +4792,13 @@
         "operationId": 283367729686,
         "text": "刪除訂單",
         "type": 11,
+        "orderIdList": null,
+        "desc": null
+      },
+      {
+        "operationId": 283367729686,
+        "text": "再買一單",
+        "type": 12,
         "orderIdList": null,
         "desc": null
       }
@@ -4834,7 +5058,21 @@
             "groupLeaderId": 0,
             "groupLeaderAvatar": null,
             "groupLeaderName": null,
-            "orderAgainInfo": null,
+            "orderAgainInfo": {
+              "invalidCatalogIdList": [
+                "c85759024",
+                "c85759022",
+                "c85600972"
+              ],
+              "validCatalogList": [
+                {
+                  "catalogId": "c85556669",
+                  "num": 1,
+                  "price": 1540
+                }
+              ],
+              "couponPromotionDesc": null
+            },
             "orderType": 0,
             "orderAbnormalInfo": null,
             "everyDayOfflineOrder": false,
