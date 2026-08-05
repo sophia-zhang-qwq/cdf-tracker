@@ -45,7 +45,8 @@ json_data = {
         3008,
     ],
     #'partId': '1119010',
-    'partId': '1134997',
+    #'partId': '1134997',
+    'partId': '1146943',
     'soldOutShowType': '3',
 }
 

@@ -50,7 +50,8 @@ json_data = {
 
     #'partId': '1119004',
     #'soldOutShowType': '3',
-    'partId': '1134991',
+    #'partId': '1134991',
+    'partId': '1146937',
     #'soldOutShowType': '3',
 }
 
