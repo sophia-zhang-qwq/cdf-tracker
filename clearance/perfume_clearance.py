@@ -126,7 +126,7 @@ def products_to_df(products):
 print("=" * 60)
 print("Home Preview")
 print("=" * 60)
-home_products = get_home_products(1134997)
+home_products = get_home_products(1146943)
 print(f"Home preview: {len(home_products)} products")
 
 home_df = products_to_df(home_products)
