@@ -2,7 +2,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-31 09:17:11",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-08-05 19:33:45",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -19,14 +19,14 @@
     "operaButtons": [
       {
         "operationId": 313838409686,
-        "text": "去提貨",
-        "type": 26,
+        "text": "刪除訂單",
+        "type": 11,
         "orderIdList": null,
         "desc": null
       }
     ],
     "payDeadlineTime": 1785434265000,
-    "receiveTime": 0,
+    "receiveTime": 1785929625000,
     "saveOrderTime": 1785433977000,
     "sellerOrderList": [
       {
@@ -182,7 +182,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "待提貨",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 3,
@@ -214,7 +214,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 2,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -252,7 +252,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-31 09:15:55",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-08-05 19:42:50",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -269,14 +269,14 @@
     "operaButtons": [
       {
         "operationId": 313838379686,
-        "text": "去提貨",
-        "type": 26,
+        "text": "刪除訂單",
+        "type": 11,
         "orderIdList": null,
         "desc": null
       }
     ],
     "payDeadlineTime": 1785433990000,
-    "receiveTime": 0,
+    "receiveTime": 1785930170000,
     "saveOrderTime": 1785433702000,
     "sellerOrderList": [
       {
@@ -378,7 +378,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "待提貨",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 2,
@@ -410,7 +410,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 2,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -448,7 +448,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-31 09:18:05",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-08-05 19:40:11",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -465,14 +465,14 @@
     "operaButtons": [
       {
         "operationId": 313842139686,
-        "text": "去提貨",
-        "type": 26,
+        "text": "刪除訂單",
+        "type": 11,
         "orderIdList": null,
         "desc": null
       }
     ],
     "payDeadlineTime": 1785433399000,
-    "receiveTime": 0,
+    "receiveTime": 1785930011000,
     "saveOrderTime": 1785433111000,
     "sellerOrderList": [
       {
@@ -574,7 +574,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "待提貨",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 7,
@@ -606,7 +606,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 2,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -644,7 +644,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-31 09:17:31",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-08-05 19:38:04",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -661,14 +661,14 @@
     "operaButtons": [
       {
         "operationId": 313838109686,
-        "text": "去提貨",
-        "type": 26,
+        "text": "刪除訂單",
+        "type": 11,
         "orderIdList": null,
         "desc": null
       }
     ],
     "payDeadlineTime": 1785432885000,
-    "receiveTime": 0,
+    "receiveTime": 1785929884000,
     "saveOrderTime": 1785432597000,
     "sellerOrderList": [
       {
@@ -770,7 +770,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "待提貨",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 6,
@@ -802,7 +802,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 2,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -840,7 +840,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-31 09:16:22",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-08-05 19:38:33",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -857,14 +857,14 @@
     "operaButtons": [
       {
         "operationId": 313841879686,
-        "text": "去提貨",
-        "type": 26,
+        "text": "刪除訂單",
+        "type": 11,
         "orderIdList": null,
         "desc": null
       }
     ],
     "payDeadlineTime": 1785432416000,
-    "receiveTime": 0,
+    "receiveTime": 1785929913000,
     "saveOrderTime": 1785432128000,
     "sellerOrderList": [
       {
@@ -966,7 +966,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "待提貨",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 6,
@@ -998,7 +998,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 2,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
@@ -1036,7 +1036,7 @@
   {
     "autoReceiveTime": 0,
     "deliveryDateTime": "2026-07-31 09:18:30",
-    "receiveDateTime": null,
+    "receiveDateTime": "2026-08-05 19:36:48",
     "biz": {
       "bizId": null,
       "bizStatus": 0,
@@ -1053,14 +1053,14 @@
     "operaButtons": [
       {
         "operationId": 313841819686,
-        "text": "去提貨",
-        "type": 26,
+        "text": "刪除訂單",
+        "type": 11,
         "orderIdList": null,
         "desc": null
       }
     ],
     "payDeadlineTime": 1785432173000,
-    "receiveTime": 0,
+    "receiveTime": 1785929808000,
     "saveOrderTime": 1785431885000,
     "sellerOrderList": [
       {
@@ -1162,7 +1162,7 @@
       }
     ],
     "stateCode": 3,
-    "stateText": "待提貨",
+    "stateText": "已提貨",
     "totalFreight": 0,
     "totalPackageAmount": 0,
     "totalNumber": 6,
@@ -1194,7 +1194,7 @@
     "sqPayType": null,
     "collectionGoods": true,
     "smartCabinet": false,
-    "pickupStatus": 2,
+    "pickupStatus": 3,
     "shenqiIdcardRequirement": 0,
     "purchaserIdcardId": null,
     "riskOrder": false,
