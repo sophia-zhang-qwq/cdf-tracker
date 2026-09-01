@@ -1,4 +1,9 @@
-# Fill these in locally. Do NOT commit your real access token to GitHub.
+# common library
+import urllib3
+import pandas as pd
+import requests
+
+# TO-DO: hide in Github, do not share or commit real access token to public
 headers = {
     "Accept": "application/json",
     "mobile": "13143461882",
@@ -15,3 +20,91 @@ headers = {
     "osversion": "18.1",
     "Content-Type": "application/json",
 }
+
+# common api
+url = "https://api.cdfsunrise.com/restapi/search/list"
+
+# 把傻逼Warning给屏蔽了
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# common helper function
+
+# def products_to_df(products):
+# retrieve each individual product -> df
+def products_to_df(products):
+    rows = []
+    for p in products:
+
+        rows.append({
+            # sku
+            "goodsID": p.get("goodsID"),
+            "goodsCode": p.get("goodsCode"),
+            "leFoxID": p.get("leFoxID"),
+            
+            "chineseBrandName": p.get("chineseBrandName"),
+            "englishBrandName": p.get("englishBrandName"),
+            "goodsName": p.get("goodsName"),
+            "goodsSubName": p.get("goodsSubName"),
+            "backstageCategory": p.get("backstageCategory"),
+
+            "price": p.get("price"),
+            "originalPrice": p.get("originalPrice"),
+            "costPrice": p.get("costPrice"),
+            "buyPrice": p.get("buyPrice"),
+            "lowestPrice": p.get("lowestPrice"),
+            "lowestPriceText": p.get("lowestPriceText"),
+
+            "stock": p.get("stock"),
+
+            "onSale": p.get("onSale"),
+            "purchaseTypeId": p.get("purchaseTypeId"),
+            "purchaseModeType": p.get("purchaseModeType"),
+            # promotion end time
+            "timestamp": p.get("timestamp"),
+        })
+
+    df = pd.DataFrame(rows)
+    return df
+
+# def fetch_all_products(json_data, page=1):
+# 实现翻页, default page=1 -> output: list of all products of the same category
+def fetch_all_products(json_data, page=1):
+    session = requests.Session()
+
+    all_products = []
+    #page = 1
+    fetched = 0
+
+    while True:
+        json_data["pageNumber"] = page
+
+        response = session.post(
+            url,
+            headers=headers,
+            json=json_data,
+            timeout=20,
+            # 我靠这个傻逼Bug 加了这行就成功了
+            verify=False,
+        )
+
+        data = response.json()
+        products = data.get("goodsList", [])
+        # 滑到底部 没有商品了
+        if not products:
+            break
+
+        fetched += len(products)
+        print(
+            f"page {page}: "
+            f"{len(products)} products "
+            f"({fetched}/{data['totalCount']} total)"
+        )
+
+        all_products.extend(products)
+        page += 1
+    print(
+        f"商品数: {len(all_products)}/{data['totalCount']} "
+        f"(缺货 {data['totalCount'] - len(all_products)} 个)"
+    )
+
+    return all_products
