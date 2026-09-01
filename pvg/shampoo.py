@@ -11,13 +11,24 @@ json_data = {
     "pageNumber": 1,
     "brandNewFilter": "0",
     "param": {
-        "searchName": "家居香氛",
+        # TO-DO: change according to category
+        #"searchName": "家居香氛",
+        "searchName": "洗发", 
+
         "pickUpMultiple": "1",
         "pickUpPoints": "[{\"name\":\"浦东T2入境\",\"pickupCode\":[\"6a1e461e4bb3fe78284074e2\"],\"isDefault\":true}]",
         "newMerchantIds": "cdfshanghai",
-        "topItemIds": "4871646",
+
+        # TO-DO: change according to category
+        #"topItemIds": "4871646",
+        "topItemIds":"4878232",
+
         "searchField": "免税店_6a1e461e4bb3fe78284074e2",
-        "threeCategoryIds": "6214d97cf8e5c40001fe5f90",
+        
+        # TO-DO: change according to category
+        #"threeCategoryIds": "6214d97cf8e5c40001fe5f90",
+        "threeCategoryIds":"63563cb2fef506000190cf13",
+
         "purchaseTypes": "2"
     },
     "source": 0,
@@ -73,5 +84,5 @@ print("products:", len(products))
 all_products = fetch_all_products(json_data)
 search_df = products_to_df(all_products)
 
-search_df.to_csv("fragrance.csv", index=False, encoding="utf-8-sig")
-print("Saved: fragrance.csv\n")
+search_df.to_csv("shampoo.csv", index=False, encoding="utf-8-sig")
+print("Saved: shampoo.csv\n")

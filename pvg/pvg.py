@@ -1,5 +1,3 @@
-import requests
-
 from common import *
 
 json_data = {
