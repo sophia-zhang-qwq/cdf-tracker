@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import urllib3
 
-from header import headers
+from common import headers
 
 # 把傻逼Warning给屏蔽了
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
