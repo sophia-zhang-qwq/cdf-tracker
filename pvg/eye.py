@@ -66,11 +66,9 @@ r = requests.post(
     verify=False,
 )
 
-print(r.status_code)
-
+#print(r.status_code)
 data = r.json()
-
-print(data["responseHead"])
+#print(data["responseHead"])
 print("total:", data.get("totalCount"))
 
 products = data.get("goodsList", [])

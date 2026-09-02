@@ -57,8 +57,8 @@ r = requests.post(
     verify=False,
 )
 
-print(r.status_code)
 data = r.json()
+#print(r.status_code)
 #print(data["responseHead"])
 print("total:", data.get("totalCount"))
 
