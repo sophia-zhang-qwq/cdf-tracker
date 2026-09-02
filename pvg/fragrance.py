@@ -57,8 +57,13 @@ r = requests.post(
     verify=False,
 )
 
-print(r.status_code)
+#print(r.status_code)
+#data = r.json()
 
+print("status:", r.status_code)
+print("response:", repr(r.text[:1000]))
+if r.status_code != 200:
+    raise RuntimeError(f"API request failed: {r.status_code}")
 data = r.json()
 
 print(data["responseHead"])

@@ -40,7 +40,6 @@ csv_files = [
     "bodylotion.csv",
 ]
 
-"""
 # run every scraper
 for script in scripts:
     print(f"\n===== Running {script} =====")
@@ -49,7 +48,6 @@ for script in scripts:
         [sys.executable, script],
         check=True,
     )
-"""
 
 # combine csv
 dfs = []
