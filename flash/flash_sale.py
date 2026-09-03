@@ -7,7 +7,6 @@ import json
 # 2. change payload 
 # 3. add flash_parts
 
-
 cookies = {
     '_gcl_au': '1.1.1842803474.1780732880',
     '_ga': 'GA1.1.1923441225.1780732883',
@@ -73,9 +72,7 @@ def get_home_products(part_id):
         headers=headers,
         cookies=cookies,
     )
-
     data = r.json()
-
     return data.get("list", [])
 
 def products_to_df(products):
@@ -83,7 +80,6 @@ def products_to_df(products):
     for p in products:
 
         rows.append({
-
             "productId": p.get("id"),
             # sku
 
@@ -91,7 +87,6 @@ def products_to_df(products):
             #"brandEnName": p.get("brandEnName"),
             "brandId": p.get("brandId"),
             "productName": p.get("name"),
-
 
             "price": p.get("price"),
             "originalPrice": p.get("originalPrice"),
@@ -111,7 +106,6 @@ def products_to_df(products):
             "sellNum": p.get("sellNum"),
             #"limitNum": p.get("catalogInfo", {}).get("limitNum"),
 
-
             # promotion end time
             "timeLabel": p.get("timeLabel"),
 
@@ -127,7 +121,6 @@ def products_to_df(products):
     return df
 
 # Below added
-
 FLASH_PARTS = {
     "featured":1025537,
     "skincare":926222,
@@ -138,19 +131,6 @@ FLASH_PARTS = {
 }
 
 dfs=[]
-"""
-for name,part in FLASH_PARTS.items():
-    print("="*60)
-    print(name)
-    print("="*60)
-    home=get_home_products(part)
-    df_home=products_to_df(home)
-    print(f"{len(df_home)} products")
-    dfs.append(df_home)
-
-flash_df = pd.concat(dfs,ignore_index=True)
-"""
-
 session = requests.Session()
 
 all_products = []
@@ -164,10 +144,10 @@ for name, part in FLASH_PARTS.items():
     page = 1
 
     print(part)
-    print(json_data)
-    print(json_data.keys())
-    print(json_data.get("count"))
-    print(json_data.get("msg"))
+    #print(json_data)
+    #print(json_data.keys())
+    #print(json_data.get("count"))
+    #print(json_data.get("msg"))
 
     while True:
 
