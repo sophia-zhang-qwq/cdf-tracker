@@ -2205,9 +2205,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -2401,9 +2401,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -2597,9 +2597,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -2793,9 +2793,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3043,9 +3043,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3239,9 +3239,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3435,9 +3435,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3739,9 +3739,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -3935,9 +3935,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
@@ -4131,9 +4131,9 @@
     "dfsOrderInfo": null,
     "payChannel": "收银台",
     "promisedDeliveryTimeDesc": null,
+    "packageDelivery": false,
     "needUploadIdCard": false,
-    "delayAutoReceiveTime": false,
-    "packageDelivery": false
+    "delayAutoReceiveTime": false
   },
   {
     "autoReceiveTime": 0,
