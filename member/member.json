@@ -54,7 +54,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/65e8377c2f362c07cd96200e.jpeg/webp400",
     "exchangePrice": 232.98,
     "foreign": true,
-    "stock": 7,
+    "stock": 5,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -68,7 +68,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 7,
+    "activityStock": 5,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -7362,7 +7362,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/66cd3edf41df0a5e6f0c9ad5.jpg/webp400",
     "exchangePrice": 507.9,
     "foreign": true,
-    "stock": 2,
+    "stock": 1,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -7376,7 +7376,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 2,
+    "activityStock": 1,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -7428,7 +7428,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "6",
+    "sellNum": "7",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -10890,7 +10890,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6228447f34f7df36c53d3f2b.png/webp400",
     "exchangePrice": 51.26,
     "foreign": true,
-    "stock": 514,
+    "stock": 500,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -10904,7 +10904,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 514,
+    "activityStock": 500,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -11494,7 +11494,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -11646,7 +11650,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6854e1e82f362c07cd9ab8f8.jpg/webp400",
     "exchangePrice": 270.26,
     "foreign": true,
-    "stock": 13,
+    "stock": 12,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -11660,7 +11664,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 13,
+    "activityStock": 12,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -11712,7 +11716,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "99",
+    "sellNum": "100+",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -11872,7 +11876,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -11998,7 +12006,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -12124,7 +12136,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -12250,7 +12266,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -12376,7 +12396,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -12502,7 +12526,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -12528,7 +12556,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/66e291571c39e040e61843eb.jpeg/webp400",
     "exchangePrice": 349.47,
     "foreign": true,
-    "stock": 5,
+    "stock": 3,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -12542,7 +12570,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 5,
+    "activityStock": 3,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -12594,7 +12622,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "98",
+    "sellNum": "100+",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -12628,7 +12656,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -12754,7 +12786,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -12880,7 +12916,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -13006,7 +13046,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -13132,7 +13176,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -13258,7 +13306,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -13384,7 +13436,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -13510,7 +13566,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -13636,7 +13696,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -13762,7 +13826,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -13888,7 +13956,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -13914,7 +13986,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/64f1a41a1c39e040e6152340.jpg/webp400",
     "exchangePrice": 270.26,
     "foreign": true,
-    "stock": 3,
+    "stock": 1,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -13928,7 +14000,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 3,
+    "activityStock": 1,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -13980,7 +14052,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "34",
+    "sellNum": "36",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -14014,7 +14086,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -14140,7 +14216,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -14266,7 +14346,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -14392,7 +14476,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -14518,7 +14606,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -14644,7 +14736,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -14770,7 +14866,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -14896,7 +14996,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -15148,7 +15252,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -15274,7 +15382,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -15426,7 +15538,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6854e19441df0a5e6f0f7340.jpg/webp400",
     "exchangePrice": 335.49,
     "foreign": true,
-    "stock": 13,
+    "stock": 12,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -15440,7 +15552,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 13,
+    "activityStock": 12,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -15492,7 +15604,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "82",
+    "sellNum": "83",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -15526,7 +15638,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -15652,7 +15768,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -15778,7 +15898,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -15904,7 +16028,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -15930,7 +16058,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/68f733ed861d3b4f087232ea.jpg/webp400",
     "exchangePrice": 270.26,
     "foreign": true,
-    "stock": 3,
+    "stock": 2,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -15944,7 +16072,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 3,
+    "activityStock": 2,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -15996,7 +16124,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "12",
+    "sellNum": "13",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -16030,7 +16158,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -16156,7 +16288,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -16282,7 +16418,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -16408,7 +16548,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -16534,7 +16678,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -16660,7 +16808,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -16786,7 +16938,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -17038,7 +17194,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -17164,7 +17324,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -17290,7 +17454,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -17416,7 +17584,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -17668,7 +17840,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -18172,7 +18348,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -18298,7 +18478,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -18550,7 +18734,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -18676,7 +18864,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -18802,7 +18994,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -18928,7 +19124,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -19054,7 +19254,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -19180,7 +19384,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -19306,7 +19514,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -19432,7 +19644,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -19558,7 +19774,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -19710,7 +19930,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6854e3531c39e040e61aebce.jpg/webp400",
     "exchangePrice": 587.11,
     "foreign": true,
-    "stock": 4,
+    "stock": 3,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -19724,7 +19944,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 4,
+    "activityStock": 3,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -19776,7 +19996,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "42",
+    "sellNum": "43",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -20062,7 +20282,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -20188,7 +20412,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -20280,7 +20508,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "5",
+    "sellNum": "6",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -20314,7 +20542,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -20440,7 +20672,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -20566,7 +20802,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -20692,7 +20932,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -20818,7 +21062,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -20944,7 +21192,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -21322,7 +21574,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -21448,7 +21704,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -21474,7 +21734,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/64f1a3422f362c07cd94f1ab.jpg/webp400",
     "exchangePrice": 260.94,
     "foreign": true,
-    "stock": 1,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -21488,7 +21748,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 1,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -21540,7 +21800,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "30",
+    "sellNum": "31",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -21574,7 +21834,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -21700,7 +21964,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -21826,7 +22094,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -21952,7 +22224,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -22330,7 +22606,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -22456,7 +22736,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -22582,7 +22866,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -22708,7 +22996,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -22834,7 +23126,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -22960,7 +23256,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -23086,7 +23386,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -23212,7 +23516,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -23238,7 +23546,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6915469e41df0a5e6f1106a1.jpg/webp400",
     "exchangePrice": 400.73,
     "foreign": true,
-    "stock": 2,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -23252,7 +23560,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 2,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -23304,7 +23612,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "8",
+    "sellNum": "10",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -23338,7 +23646,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -23464,7 +23776,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -23590,7 +23906,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -23716,7 +24036,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -23842,7 +24166,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -23968,7 +24296,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -23994,7 +24326,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6915469d41df0a5e6f11069d.jpg/webp400",
     "exchangePrice": 181.73,
     "foreign": true,
-    "stock": 5,
+    "stock": 4,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -24008,7 +24340,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 5,
+    "activityStock": 4,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -24060,7 +24392,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "8",
+    "sellNum": "9",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -24094,7 +24426,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -24220,7 +24556,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -24346,7 +24686,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -24472,7 +24816,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -24598,7 +24946,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -24724,7 +25076,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -24850,7 +25206,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -24976,7 +25336,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -25102,7 +25466,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -25228,7 +25596,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -25354,7 +25726,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -25480,7 +25856,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -25606,7 +25986,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -25732,7 +26116,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -25858,7 +26246,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -26362,7 +26754,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -26488,7 +26884,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -26614,7 +27014,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -26740,7 +27144,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -26866,7 +27274,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -26992,7 +27404,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -27118,7 +27534,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -27244,7 +27664,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -27370,7 +27794,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -27496,7 +27924,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -27622,7 +28054,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -27748,7 +28184,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -27874,7 +28314,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -28000,7 +28444,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -28126,7 +28574,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -28252,7 +28704,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -28344,7 +28800,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "11",
+    "sellNum": "12",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -28378,7 +28834,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -28404,7 +28864,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/68f7344741df0a5e6f10cc2e.jpg/webp400",
     "exchangePrice": 228.32,
     "foreign": true,
-    "stock": 7,
+    "stock": 6,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -28418,7 +28878,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 7,
+    "activityStock": 6,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -28504,7 +28964,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -28630,7 +29094,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -29386,7 +29854,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -29512,7 +29984,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -29638,7 +30114,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -29764,7 +30244,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -29790,7 +30274,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/69ce37ad2dfc247b88511450.png/webp400",
     "exchangePrice": 228.32,
     "foreign": true,
-    "stock": 4,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -29804,7 +30288,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 4,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -29856,7 +30340,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "42",
+    "sellNum": "45",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -29890,7 +30374,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -30016,7 +30504,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -30142,7 +30634,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -31150,7 +31646,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -31276,7 +31776,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -31402,7 +31906,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -31528,7 +32036,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -31654,7 +32166,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -31780,7 +32296,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -31906,7 +32426,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -32032,7 +32556,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -32158,7 +32686,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -32284,7 +32816,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -32410,7 +32946,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -32536,7 +33076,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -32662,7 +33206,11 @@
       }
     ],
     "pointsActivityInfo": null,
-    "exchangeInfo": null,
+    "exchangeInfo": {
+      "productId": "p15943648",
+      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/695ca1a22f362c07cd9d00ff.jpg/webp400",
+      "exchangeType": 2
+    },
     "activityInfo": {
       "activityId": 500022208,
       "activityName": null,
@@ -32814,7 +33362,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/622844f834f7df36c53d428c.jpg/webp400",
     "exchangePrice": 450.12,
     "foreign": true,
-    "stock": 157,
+    "stock": 154,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -32828,7 +33376,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 157,
+    "activityStock": 154,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -32940,7 +33488,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/63c10cb58b4bea5d108c9ac2.png/webp400",
     "exchangePrice": 51.26,
     "foreign": true,
-    "stock": 138,
+    "stock": 137,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -32954,7 +33502,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 138,
+    "activityStock": 137,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -33192,7 +33740,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/66c7f3cf2f362c07cd97d651.png/webp400",
     "exchangePrice": 1519.04,
     "foreign": true,
-    "stock": 260,
+    "stock": 257,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -33206,7 +33754,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 260,
+    "activityStock": 257,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -33444,7 +33992,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6889de4b1c39e040e61b4d7f.jpg/webp400",
     "exchangePrice": 85.74,
     "foreign": true,
-    "stock": 127,
+    "stock": 124,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -33458,7 +34006,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 127,
+    "activityStock": 124,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -33948,7 +34496,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6881e30a861d3b4f08712edb.jpg/webp400",
     "exchangePrice": 918.88,
     "foreign": true,
-    "stock": 23,
+    "stock": 20,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -33962,7 +34510,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 23,
+    "activityStock": 20,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -34326,7 +34874,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/67ee2d6841df0a5e6f0eb7fa.png/webp400",
     "exchangePrice": 766.04,
     "foreign": true,
-    "stock": 33,
+    "stock": 32,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -34340,7 +34888,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 33,
+    "activityStock": 32,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -34704,7 +35252,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/62d679a68b4bea5d108b5cf1.jpg/webp400",
     "exchangePrice": 102.51,
     "foreign": true,
-    "stock": 14,
+    "stock": 12,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -34718,7 +35266,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 14,
+    "activityStock": 12,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -35526,7 +36074,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "14",
+    "sellNum": "15",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -35964,7 +36512,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/68369fe91c39e040e61aaad6.jpg/webp400",
     "exchangePrice": 1258.1,
     "foreign": true,
-    "stock": 58,
+    "stock": 55,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -35978,7 +36526,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 58,
+    "activityStock": 55,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -36720,7 +37268,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/611f2bbad26e305ee8e9d5b2.jpg/webp400",
     "exchangePrice": 450.12,
     "foreign": true,
-    "stock": 22,
+    "stock": 21,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -36734,7 +37282,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 22,
+    "activityStock": 21,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -37098,7 +37646,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6690def641df0a5e6f0c2f0a.jpg/webp400",
     "exchangePrice": 207.82,
     "foreign": true,
-    "stock": 23,
+    "stock": 22,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -37112,7 +37660,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 23,
+    "activityStock": 22,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -37602,7 +38150,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/65e9229a1c39e040e6165354.jpeg/webp400",
     "exchangePrice": 46.6,
     "foreign": true,
-    "stock": 37,
+    "stock": 36,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -37616,7 +38164,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 37,
+    "activityStock": 36,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -38484,7 +39032,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/64abc6948b4bea5d108debe1.jpg/webp400",
     "exchangePrice": 652.35,
     "foreign": true,
-    "stock": 20,
+    "stock": 18,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -38498,7 +39046,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 20,
+    "activityStock": 18,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -38610,7 +39158,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/615409bcd26e305ee8ea57ed.jpg/webp400",
     "exchangePrice": 432.41,
     "foreign": true,
-    "stock": 16,
+    "stock": 15,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -38624,7 +39172,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 16,
+    "activityStock": 15,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -38736,7 +39284,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/643fa27141df0a5e6f08c300.jpg/webp400",
     "exchangePrice": 720.38,
     "foreign": true,
-    "stock": 38,
+    "stock": 35,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -38750,7 +39298,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 38,
+    "activityStock": 35,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -38988,7 +39536,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/62284578de8ebe33862282b0.jpg/webp400",
     "exchangePrice": 945.9,
     "foreign": true,
-    "stock": 15,
+    "stock": 14,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -39002,7 +39550,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 15,
+    "activityStock": 14,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -39114,7 +39662,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/622846be3daff27124d58155.jpg/webp400",
     "exchangePrice": 945.9,
     "foreign": true,
-    "stock": 7,
+    "stock": 5,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -39128,7 +39676,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 7,
+    "activityStock": 5,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -39240,7 +39788,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/64abd24c7223f30ba6333bdf.png/webp400",
     "exchangePrice": 65.23,
     "foreign": true,
-    "stock": 2,
+    "stock": 1,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -39254,7 +39802,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 2,
+    "activityStock": 1,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -39744,7 +40292,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6889805b861d3b4f08713ad3.jpeg/webp400",
     "exchangePrice": 37.28,
     "foreign": true,
-    "stock": 67,
+    "stock": 63,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -39758,7 +40306,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 67,
+    "activityStock": 63,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -40626,7 +41174,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6847a418861d3b4f0870c29f.jpg/webp400",
     "exchangePrice": 54.05,
     "foreign": true,
-    "stock": 12,
+    "stock": 11,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -40640,7 +41188,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 12,
+    "activityStock": 11,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -40692,7 +41240,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "66",
+    "sellNum": "67",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -40752,7 +41300,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6228442734f7df36c53d3c45.jpg/webp400",
     "exchangePrice": 585.25,
     "foreign": true,
-    "stock": 7,
+    "stock": 6,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -40766,7 +41314,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 7,
+    "activityStock": 6,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -41130,7 +41678,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/62284578de8ebe33862282ac.jpg/webp400",
     "exchangePrice": 945.9,
     "foreign": true,
-    "stock": 14,
+    "stock": 13,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -41144,7 +41692,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 14,
+    "activityStock": 13,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -42138,7 +42686,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/62cd46111c39e040e61230d9.jpg/webp400",
     "exchangePrice": 232.98,
     "foreign": true,
-    "stock": 11,
+    "stock": 10,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -42152,7 +42700,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 11,
+    "activityStock": 10,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -42204,7 +42752,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "7",
+    "sellNum": "8",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -43020,7 +43568,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/629091005817034703ddd91d.png/webp400",
     "exchangePrice": 495.78,
     "foreign": true,
-    "stock": 17,
+    "stock": 14,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -43034,7 +43582,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 17,
+    "activityStock": 14,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -43464,7 +44012,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "30",
+    "sellNum": "31",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -43776,7 +44324,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/62284545de8ebe3386228155.jpg/webp400",
     "exchangePrice": 1043.76,
     "foreign": true,
-    "stock": 2,
+    "stock": 1,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -43790,7 +44338,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 2,
+    "activityStock": 1,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -44406,7 +44954,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/65e921ec2f362c07cd9620eb.jpeg/webp400",
     "exchangePrice": 382.09,
     "foreign": true,
-    "stock": 9,
+    "stock": 6,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -44420,7 +44968,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 9,
+    "activityStock": 6,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -44472,7 +45020,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "21",
+    "sellNum": "24",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -44784,7 +45332,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/66023b52861d3b4f086c682d.jpeg/webp400",
     "exchangePrice": 1309.36,
     "foreign": true,
-    "stock": 1,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -44798,7 +45346,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 1,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -45354,7 +45902,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "400+",
+    "sellNum": "500+",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -46170,7 +46718,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/66ac59641c39e040e617d6b4.png/webp400",
     "exchangePrice": 675.65,
     "foreign": true,
-    "stock": 48,
+    "stock": 46,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -46184,7 +46732,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 48,
+    "activityStock": 46,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -46800,7 +47348,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6822f778861d3b4f08707a83.jpg/webp400",
     "exchangePrice": 1711.02,
     "foreign": true,
-    "stock": 18,
+    "stock": 17,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -46814,7 +47362,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 18,
+    "activityStock": 17,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -46866,7 +47414,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "53",
+    "sellNum": "54",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -47052,7 +47600,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/66681306861d3b4f086d5071.jpg/webp400",
     "exchangePrice": 513.49,
     "foreign": true,
-    "stock": 5,
+    "stock": 4,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -47066,7 +47614,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 5,
+    "activityStock": 4,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -47178,7 +47726,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/66024b612f362c07cd96472d.jpeg/webp400",
     "exchangePrice": 1890.88,
     "foreign": true,
-    "stock": 6,
+    "stock": 4,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -47192,7 +47740,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 6,
+    "activityStock": 4,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -47304,7 +47852,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/652e27498b4bea5d108e8b05.png/webp400",
     "exchangePrice": 2070.74,
     "foreign": true,
-    "stock": 12,
+    "stock": 11,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -47318,7 +47866,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 12,
+    "activityStock": 11,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -48186,7 +48734,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/673404e02f362c07cd98bf06.jpg/webp400",
     "exchangePrice": 3168.55,
     "foreign": true,
-    "stock": 23,
+    "stock": 21,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -48200,7 +48748,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 23,
+    "activityStock": 21,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -48252,7 +48800,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "73",
+    "sellNum": "74",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -48630,7 +49178,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "33",
+    "sellNum": "34",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -48690,7 +49238,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/698989b91c39e040e61dbbe9.jpg/webp400",
     "exchangePrice": 2354.05,
     "foreign": true,
-    "stock": 9,
+    "stock": 8,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -48704,7 +49252,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 9,
+    "activityStock": 8,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -48756,7 +49304,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "6",
+    "sellNum": "7",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -50394,7 +50942,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "20",
+    "sellNum": "21",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -62172,7 +62720,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/622846f72794a275218b81ba.jpg/webp400",
     "exchangePrice": 512.56,
     "foreign": true,
-    "stock": 5,
+    "stock": 4,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -62186,7 +62734,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 5,
+    "activityStock": 4,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -64062,7 +64610,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6662fc4041df0a5e6f0be2df.jpg/webp400",
     "exchangePrice": 307.54,
     "foreign": true,
-    "stock": 2,
+    "stock": 1,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -64076,7 +64624,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 2,
+    "activityStock": 1,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -67968,7 +68516,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6333b3748b4bea5d108bd900.png/webp400",
     "exchangePrice": 1863.85,
     "foreign": true,
-    "stock": 1,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -67982,7 +68530,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 1,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -69354,7 +69902,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/65e922ce2f362c07cd9620ed.jpeg/webp400",
     "exchangePrice": 922.61,
     "foreign": true,
-    "stock": 1,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -69368,7 +69916,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 1,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -69420,7 +69968,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "8",
+    "sellNum": "9",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -70992,7 +71540,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/69a8f10d829b8148ee28f3e3.jpeg/webp400",
     "exchangePrice": 922.61,
     "foreign": true,
-    "stock": 1,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -71006,7 +71554,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 1,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -71058,7 +71606,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "1",
+    "sellNum": "2",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -72378,7 +72926,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6475999041df0a5e6f0908f8.jpg/webp400",
     "exchangePrice": 549.84,
     "foreign": true,
-    "stock": 21,
+    "stock": 19,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -72392,7 +72940,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 21,
+    "activityStock": 19,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -72444,7 +72992,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "65",
+    "sellNum": "67",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -76158,7 +76706,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6791f545861d3b4f086f7439.jpg/webp400",
     "exchangePrice": 2655.99,
     "foreign": true,
-    "stock": 1,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -76172,7 +76720,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 1,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -76224,7 +76772,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "1",
+    "sellNum": "2",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -77418,7 +77966,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/62284546de8ebe338622815e.JPG/webp400",
     "exchangePrice": 1537.68,
     "foreign": true,
-    "stock": 3,
+    "stock": 2,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -77432,7 +77980,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 3,
+    "activityStock": 2,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -77484,7 +78032,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "52",
+    "sellNum": "54",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -81198,7 +81746,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6549b2302f362c07cd956a00.jpg/webp400",
     "exchangePrice": 465.96,
     "foreign": true,
-    "stock": 4,
+    "stock": 3,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -81212,7 +81760,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 4,
+    "activityStock": 3,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -81264,7 +81812,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "45",
+    "sellNum": "46",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -82836,7 +83384,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6615f2e7861d3b4f086c8648.jpg/webp400",
     "exchangePrice": 493.92,
     "foreign": true,
-    "stock": 4,
+    "stock": 3,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -82850,7 +83398,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 4,
+    "activityStock": 3,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -82902,7 +83450,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "18",
+    "sellNum": "19",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -82962,7 +83510,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/684f8b161c39e040e61ae083.jpg/webp400",
     "exchangePrice": 270.26,
     "foreign": true,
-    "stock": 1,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -82976,7 +83524,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 1,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -83028,7 +83576,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "6",
+    "sellNum": "7",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -83532,7 +84080,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "9",
+    "sellNum": "10",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -83844,7 +84392,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/66bb006241df0a5e6f0c744f.png/webp400",
     "exchangePrice": 223.66,
     "foreign": true,
-    "stock": 3,
+    "stock": 1,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -83858,7 +84406,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 3,
+    "activityStock": 1,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -83910,7 +84458,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "17",
+    "sellNum": "19",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -89580,7 +90128,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "34",
+    "sellNum": "35",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -92034,7 +92582,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/68aeaa1441df0a5e6f1036ee.jpg/webp400",
     "exchangePrice": 410.05,
     "foreign": true,
-    "stock": 1,
+    "stock": 0,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -92048,7 +92596,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 1,
+    "activityStock": 0,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -92100,7 +92648,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "7",
+    "sellNum": "8",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -92160,7 +92708,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6932a4e4861d3b4f0872a319.jpg/webp400",
     "exchangePrice": 1756.68,
     "foreign": true,
-    "stock": 15,
+    "stock": 14,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -92174,7 +92722,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 15,
+    "activityStock": 14,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -92226,7 +92774,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "48",
+    "sellNum": "49",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -92790,7 +93338,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6a1e4285e559a506cf253d95.png/webp400",
     "exchangePrice": 438.01,
     "foreign": true,
-    "stock": 27,
+    "stock": 26,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -92804,7 +93352,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 27,
+    "activityStock": 26,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -94176,7 +94724,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6282183f8b4bea5d108ae5ab.jpg/webp400",
     "exchangePrice": 456.64,
     "foreign": true,
-    "stock": 10,
+    "stock": 9,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -94190,7 +94738,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 10,
+    "activityStock": 9,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -95562,7 +96110,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/68c92ada1c39e040e61bf4ec.jpeg/webp400",
     "exchangePrice": 882.53,
     "foreign": true,
-    "stock": 29,
+    "stock": 28,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -95576,7 +96124,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 29,
+    "activityStock": 28,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -96696,7 +97244,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6690ddae1c39e040e617a91e.jpg/webp400",
     "exchangePrice": 513.49,
     "foreign": true,
-    "stock": 20,
+    "stock": 19,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -96710,7 +97258,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 20,
+    "activityStock": 19,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -99846,7 +100394,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/6822dd5d861d3b4f08707a21.png/webp400",
     "exchangePrice": 400.73,
     "foreign": true,
-    "stock": 2,
+    "stock": 1,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -99860,7 +100408,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 2,
+    "activityStock": 1,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -99912,7 +100460,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "37",
+    "sellNum": "39",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -100224,7 +100772,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/65697c608b4bea5d108ee650.jpg/webp400",
     "exchangePrice": 1029.78,
     "foreign": true,
-    "stock": 9,
+    "stock": 8,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -100238,7 +100786,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 9,
+    "activityStock": 8,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -100476,7 +101024,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/65671f342f362c07cd959014.jpg/webp400",
     "exchangePrice": 1029.78,
     "foreign": true,
-    "stock": 6,
+    "stock": 4,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -100490,7 +101038,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 6,
+    "activityStock": 4,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -100542,7 +101090,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "82",
+    "sellNum": "84",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -102996,7 +103544,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/69a8f10a6d61d627a754519f.jpg/webp400",
     "exchangePrice": 493.92,
     "foreign": true,
-    "stock": 2,
+    "stock": 1,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -103010,7 +103558,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 2,
+    "activityStock": 1,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -103062,7 +103610,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "8",
+    "sellNum": "9",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -103500,7 +104048,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/69a8f1086d61d627a754519b.jpeg/webp400",
     "exchangePrice": 512.56,
     "foreign": true,
-    "stock": 5,
+    "stock": 4,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -103514,7 +104062,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 5,
+    "activityStock": 4,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -103566,7 +104114,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "5",
+    "sellNum": "6",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -104004,7 +104552,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/69a8f1066d61d627a7545196.jpeg/webp400",
     "exchangePrice": 894.65,
     "foreign": true,
-    "stock": 3,
+    "stock": 2,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -104018,7 +104566,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 3,
+    "activityStock": 2,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
@@ -104070,7 +104618,7 @@
     "packageProd": false,
     "specialSale": false,
     "sample": false,
-    "sellNum": "26",
+    "sellNum": "27",
     "onlyAppShow": false,
     "freeShipping": false,
     "newProduct": false
@@ -105642,7 +106190,7 @@
     "pic": "https://pic.cdfmembers.com/cd/shenqiProduct/62a2bf268b4bea5d108b1b7c.jpeg/webp400",
     "exchangePrice": 465.96,
     "foreign": true,
-    "stock": 2,
+    "stock": 1,
     "status": 3,
     "marketAmountTitle": null,
     "sectionId": null,
@@ -105656,7 +106204,7 @@
     "catalogCount": 1,
     "catalogPriceCount": 1,
     "activityStatus": 3,
-    "activityStock": 2,
+    "activityStock": 1,
     "designConfig": {
       "backgroundColor": "#D8982C",
       "btnColor": "",
