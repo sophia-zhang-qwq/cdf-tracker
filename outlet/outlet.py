@@ -5,6 +5,7 @@ import pandas as pd
 import sys
 from pathlib import Path
 import math
+import random
 
 # put file root directory into the Python search path, so that we can import modules from the root directory
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -42,11 +43,11 @@ data = r.json()
 #total_products = data["count"]
 total_products = data["recordCount"]
 print(f"Total products: {total_products}")
-#page_size = len(data["list"])
-page_size = data["count"]
-print(page_size)
-total_pages = math.ceil(total_products / page_size)
+#total_pages是总页数, page_size是每页的商品数量
+total_pages = data["count"]
 print(f"Total pages: {total_pages}")
+page_size = math.ceil(total_products / total_pages)
+print(f"#Products each page: {page_size}")
 
 # -------------------------
 # iterate through pages to fetch member-exclusive products
@@ -79,11 +80,12 @@ for page in range(1, total_pages + 1):
         print(f"Page {page}/{total_pages} | " f"Products: {len(all_products)}")
 
     page += 1
-
-    time.sleep(0.5)
+    # 搞个随机 让傻逼对面认不出来
+    # time.sleep(0.5)
+    time.sleep(random.uniform(0,1))
 
 print("=" * 60)
-print(f"Page 1/{total_pages} | Products: {len(all_products)}")
+print(f"Summary: Page {total_pages} | Products: {len(all_products)}")
 
 # 保存完整 JSON
 with open("outlet.json","w",encoding="utf-8") as f:

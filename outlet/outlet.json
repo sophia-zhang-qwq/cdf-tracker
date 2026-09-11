@@ -6851,7 +6851,7 @@
     "subMerchantId": 604163145,
     "activityId": 500022555,
     "activityProductId": 504133846,
-    "activityStock": 14,
+    "activityStock": 13,
     "activityType": 3,
     "activityStatus": 1,
     "activityInfo": {
@@ -6895,7 +6895,7 @@
     "masterCategoryId": 3004,
     "categoryId": 3022,
     "thirdCategoryId": 1096,
-    "stock": 14,
+    "stock": 13,
     "showSaleOut": false,
     "symbol": "HK$",
     "catalogCount": 1,
@@ -6912,7 +6912,7 @@
       "catalogId": "c85681455",
       "sku": "C111026",
       "price": 3325,
-      "catalogStock": 14,
+      "catalogStock": 13,
       "propertyList": [
         {
           "name": null,
@@ -9982,12 +9982,7 @@
     "currency": "HKD",
     "deleted": false,
     "pointsActivityInfo": null,
-    "exchangeInfo": {
-      "productId": "p15898200",
-      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/6a8d3963829b8148ee2adaa6.jpeg/webp400",
-      "exchangeType": 2,
-      "activityId": 1000004891
-    },
+    "exchangeInfo": null,
     "futurePrice": null,
     "futurePriceQty": null,
     "catalogId": "c85732358",
@@ -10629,7 +10624,7 @@
     "subMerchantId": 604163145,
     "activityId": 500022555,
     "activityProductId": 504133869,
-    "activityStock": 4,
+    "activityStock": 3,
     "activityType": 3,
     "activityStatus": 1,
     "activityInfo": {
@@ -10673,7 +10668,7 @@
     "masterCategoryId": 3004,
     "categoryId": 3028,
     "thirdCategoryId": 1115,
-    "stock": 4,
+    "stock": 3,
     "showSaleOut": false,
     "symbol": "HK$",
     "catalogCount": 1,
@@ -10695,7 +10690,7 @@
       "catalogId": "c85786873",
       "sku": "C122167",
       "price": 410,
-      "catalogStock": 4,
+      "catalogStock": 3,
       "propertyList": [
         {
           "name": null,
@@ -12009,7 +12004,7 @@
     "subMerchantId": 604163145,
     "activityId": 500022555,
     "activityProductId": 504133877,
-    "activityStock": 8,
+    "activityStock": 7,
     "activityType": 3,
     "activityStatus": 1,
     "activityInfo": {
@@ -12053,7 +12048,7 @@
     "masterCategoryId": 3004,
     "categoryId": 3022,
     "thirdCategoryId": 1097,
-    "stock": 8,
+    "stock": 7,
     "showSaleOut": false,
     "symbol": "HK$",
     "catalogCount": 1,
@@ -12070,7 +12065,7 @@
       "catalogId": "c85757816",
       "sku": "C109784",
       "price": 278,
-      "catalogStock": 8,
+      "catalogStock": 7,
       "propertyList": [
         {
           "name": null,
@@ -34020,12 +34015,7 @@
     "currency": "HKD",
     "deleted": false,
     "pointsActivityInfo": null,
-    "exchangeInfo": {
-      "productId": "p15898200",
-      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/6a8d3963829b8148ee2adaa6.jpeg/webp400",
-      "exchangeType": 2,
-      "activityId": 1000004891
-    },
+    "exchangeInfo": null,
     "futurePrice": null,
     "futurePriceQty": null,
     "catalogId": "c85724967",
@@ -34164,12 +34154,7 @@
     "currency": "HKD",
     "deleted": false,
     "pointsActivityInfo": null,
-    "exchangeInfo": {
-      "productId": "p15898200",
-      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/6a8d3963829b8148ee2adaa6.jpeg/webp400",
-      "exchangeType": 2,
-      "activityId": 1000004891
-    },
+    "exchangeInfo": null,
     "futurePrice": null,
     "futurePriceQty": null,
     "catalogId": "c85652544",
@@ -34308,12 +34293,7 @@
     "currency": "HKD",
     "deleted": false,
     "pointsActivityInfo": null,
-    "exchangeInfo": {
-      "productId": "p15898200",
-      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/6a8d3963829b8148ee2adaa6.jpeg/webp400",
-      "exchangeType": 2,
-      "activityId": 1000004891
-    },
+    "exchangeInfo": null,
     "futurePrice": null,
     "futurePriceQty": null,
     "catalogId": "c85732851",
@@ -34452,12 +34432,7 @@
     "currency": "HKD",
     "deleted": false,
     "pointsActivityInfo": null,
-    "exchangeInfo": {
-      "productId": "p15898200",
-      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/6a8d3963829b8148ee2adaa6.jpeg/webp400",
-      "exchangeType": 2,
-      "activityId": 1000004891
-    },
+    "exchangeInfo": null,
     "futurePrice": null,
     "futurePriceQty": null,
     "catalogId": "c85732849",
@@ -47196,12 +47171,7 @@
     "currency": "HKD",
     "deleted": false,
     "pointsActivityInfo": null,
-    "exchangeInfo": {
-      "productId": "p15898200",
-      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/6a8d3963829b8148ee2adaa6.jpeg/webp400",
-      "exchangeType": 2,
-      "activityId": 1000004891
-    },
+    "exchangeInfo": null,
     "futurePrice": null,
     "futurePriceQty": null,
     "catalogId": "c85715623",
@@ -47340,12 +47310,7 @@
     "currency": "HKD",
     "deleted": false,
     "pointsActivityInfo": null,
-    "exchangeInfo": {
-      "productId": "p15898200",
-      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/6a8d3963829b8148ee2adaa6.jpeg/webp400",
-      "exchangeType": 2,
-      "activityId": 1000004891
-    },
+    "exchangeInfo": null,
     "futurePrice": null,
     "futurePriceQty": null,
     "catalogId": "c85725321",
@@ -47484,12 +47449,7 @@
     "currency": "HKD",
     "deleted": false,
     "pointsActivityInfo": null,
-    "exchangeInfo": {
-      "productId": "p15898200",
-      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/6a8d3963829b8148ee2adaa6.jpeg/webp400",
-      "exchangeType": 2,
-      "activityId": 1000004891
-    },
+    "exchangeInfo": null,
     "futurePrice": null,
     "futurePriceQty": null,
     "catalogId": "c85643779",
@@ -47628,12 +47588,7 @@
     "currency": "HKD",
     "deleted": false,
     "pointsActivityInfo": null,
-    "exchangeInfo": {
-      "productId": "p15898200",
-      "picUrl": "https://pic.cdfmembers.com/cd/shenqiProduct/6a8d3963829b8148ee2adaa6.jpeg/webp400",
-      "exchangeType": 2,
-      "activityId": 1000004891
-    },
+    "exchangeInfo": null,
     "futurePrice": null,
     "futurePriceQty": null,
     "catalogId": "c85659607",
