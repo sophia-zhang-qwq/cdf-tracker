@@ -77,7 +77,7 @@ if len(drops) > 0:
             f"Price: HK${row['price_old']} -> HK${row['price_new']}\n"
             # activityStock is actual stock for clearance price, stock is normal price stock
             f"Stock: {row['activityStock_old']} -> {row['activityStock_new']}\n"
-            f"Discount: {row['discount_old']} -> {row['discount_new']}\n"
+            f"Discount: {row['priceDiscount_old']} -> {row['priceDiscount_new']}\n"
             f"Original Price: HK$ {row['originalPrice_new']}\n")
 
 # alpha 2: new product alert
@@ -88,10 +88,10 @@ if len(new_products) > 0:
 
     for _, row in new_products.iterrows():
         alerts.append(
-            f"{row['name']}\n"
+            f"{row['productName']}\n"
             f"Price: HK${row['price']}\n"
             f"Stock: {row['activityStock']}\n"
-            f"Discount: {row['discount']}\n"
+            f"Discount: {row['priceDiscount']}\n"
             f"Original Price: HK$ {row['originalPrice']}\n")
 
 # alpha 3-1: Product Sold Out
@@ -115,52 +115,10 @@ if len(activity_sold_out) > 0:
         alerts.append(
             f"{row['productName_new']}\n"
             f"Clearance Stock: {row['activityStock_old']} → {row['activityStock_new']}\n"
-            f"Regular Stock: {row['stock_old']} → {row['stock_new']}\n"
+            f"Regular Stock: {row['activityStock_old']} → {row['activityStock_new']}\n"
             f"Price: HK${row['price_new']}\n"
-            f"Discount: {row['discount_new']}\n"
+            f"Discount: {row['priceDiscount_new']}\n"
             f"Original Price: HK${row['originalPrice_new']}\n")
-
-# alpha 4: watchlist detection
-# closely monitor a few selected products for any change in price or stock
-#WATCHLIST = ['p15737930','p15828750','p15872383','p15810473']
-watch_alert = []
-# "sellNum" is not relevant for watchlist
-WATCH_FIELDS = ["price","stock","activityStock","discount","originalPrice","priceDiscount","activityDiscount"]
-
-WATCH_PRICE = 200
-# ===== manual watchlist =====
-#WATCH_IDS = [v["productId"] for v in WATCHLIST.values()]
-#watch_compare = compare[compare["productId"].isin(WATCH_IDS)]
-# ===== auto watchlist =====
-watch_compare = compare[(compare["price_old"].fillna(0) >= WATCH_PRICE) | (compare["price_new"].fillna(0) >= WATCH_PRICE)]
-
-for _, row in watch_compare.iterrows():
-    changes = []
-    for field in WATCH_FIELDS:
-        old_col = f"{field}_old"
-        new_col = f"{field}_new"
-        # skip if column doesn't exist
-        if old_col not in compare.columns:
-            continue
-        if new_col not in compare.columns:
-            continue
-        old = row[old_col]
-        new = row[new_col]
-        # both missing
-        if pd.isna(old) and pd.isna(new):
-            continue
-        # changed
-        if pd.isna(old) != pd.isna(new) or old != new:
-            changes.append(f"{field}: {old} -> {new}")
-    if len(changes) > 0:
-        name = row["productName_new"]
-        if pd.isna(name):
-            name = row["productName_old"]
-        watch_alert.append(f"{name}\n"+ "\n".join(changes)+ "\n")
-if len(watch_alert) > 0:
-    alerts.append("=== WATCHLIST CHANGES ===")
-    alerts.extend(watch_alert)
-
 
 # alpha 5: restock alert
 # activityStock 0 -> 5 补货啦
