@@ -248,7 +248,7 @@ alert_text = "\n".join(alerts)
 print(alert_text)
 
 if len(alert_text) > 0:
-    send_alert(alert_text)
+    send_alert(alert_text,"clearance.db")
 else:
     print("No Alpha")
 

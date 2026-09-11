@@ -102,23 +102,10 @@ if len(removed_products) > 0:
     alerts.append("=== PRODUCT REMOVED FROM API ===")
     for _, row in removed_products.iterrows():
         alerts.append(
-            f"{row['name']}\n "
+            f"{row['productName']}\n "
             f"HK${row['price']} \n"
             f"(Removed, Last Stock: {row['activityStock']})\n"
             f"Original Price: HK$ {row['originalPrice']}\n")
-# alpha 3-2: Clearance Sold Out 
-# Clearance Sold Out: activityStock > 0 -> 0, but stoc>0 and regular price
-activity_sold_out = compare[(compare["activityStock_old"] > 0) & (compare["activityStock_new"] == 0)]
-if len(activity_sold_out) > 0:
-    alerts.append("=== CLEARANCE SOLD OUT ===")
-    for _, row in activity_sold_out.iterrows():
-        alerts.append(
-            f"{row['productName_new']}\n"
-            f"Clearance Stock: {row['activityStock_old']} → {row['activityStock_new']}\n"
-            f"Regular Stock: {row['activityStock_old']} → {row['activityStock_new']}\n"
-            f"Price: HK${row['price_new']}\n"
-            f"Discount: {row['priceDiscount_new']}\n"
-            f"Original Price: HK${row['originalPrice_new']}\n")
 
 # alpha 5: restock alert
 # activityStock 0 -> 5 补货啦
@@ -131,11 +118,8 @@ if len(restock) > 0:
             f"{name}\n"
             f"Clearance Stock: {row['activityStock_old']} → {row['activityStock_new']}\n"
             f"Price: HK${row['price_new']}\n"
-            f"Discount: {row['discount_new']}\n"
+            f"Discount: {row['priceDiscount_new']}\n"
             f"Original Price: HK${row['originalPrice_new']}\n")
-
-# alpha 6: price mismatch detection
-# alph 6 removed
 
 # update database
 new_df.to_sql("favor_products",conn,if_exists="replace",index=False)
@@ -148,7 +132,7 @@ alert_text = "\n".join(alerts)
 print(alert_text)
 
 if len(alert_text) > 0:
-    send_alert(alert_text)
+    send_alert(alert_text,"favor.db")
 else:
     print("No Alpha")
 

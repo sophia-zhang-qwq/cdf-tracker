@@ -15,10 +15,11 @@ receiver_email = ["wenminqizhang@gmail.com", "qwqsophiazhang@gmail.com"]
 email_password = os.environ["EMAIL_PASSWORD"]
 
 
-# last message
-def save_message(message):
+# save last message to the database
+def save_message(message, database):
 
-    conn = sqlite3.connect("clearance.db")
+    #conn = sqlite3.connect("clearance.db")
+    conn = sqlite3.connect(database)
 
     conn.execute("""
         CREATE TABLE IF NOT EXISTS messages(
@@ -80,8 +81,8 @@ def send_email_alert(message):
     server.quit()
 
 
-def send_alert(message):
-    save_message(message)
+def send_alert(message, database):
+    save_message(message,database)
     send_telegram_alert(message)
     send_email_alert(message)
 
