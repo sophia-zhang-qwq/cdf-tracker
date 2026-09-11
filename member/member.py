@@ -5,6 +5,7 @@ import pandas as pd
 import sys
 from pathlib import Path
 import math
+import random
 
 # put file root directory into the Python search path, so that we can import modules from the root directory
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -20,7 +21,6 @@ headers = get_headers(referer)
 
 all_products = []
 
-
 # session不会重复打开界面,防止被踢
 session = requests.Session()
 session.headers.update(headers)
@@ -34,7 +34,8 @@ payload = {
     "activityType": 23,
     "status": "1",
     "refreshProduct": True,
-    "activityId": "500022208",
+    #"activityId": "500022208",
+    "activityId": "500022564",
 }
 
 r = session.post(URL, json=payload)
@@ -42,7 +43,7 @@ data = r.json()
 total_products = data["count"]
 print(f"Total products: {total_products}")
 page_size = len(data["list"])
-print(page_size)
+print(f"#Products each page: {page_size}")
 total_pages = math.ceil(total_products / page_size)
 print(f"Total pages: {total_pages}")
 
@@ -62,6 +63,8 @@ with open("category_map.json", "w", encoding="utf-8") as f:
 # iterate through pages to fetch member-exclusive products
 # -------------------------
 #while True:
+last_page = 0
+empty_page = None
 for page in range(1, total_pages + 1):
     payload["pageIndex"] = page
 
@@ -81,20 +84,25 @@ for page in range(1, total_pages + 1):
     orders = data.get("list", [])
 
     if len(orders) == 0:
+        empty_page = page
         break
 
     all_products.extend(orders)
+    last_page = page
 
     if page % 10 == 0 or page == total_pages:
         print(f"Page {page}/{total_pages} | " f"Products: {len(all_products)}")
 
     page += 1
 
-    time.sleep(0.5)
+    # 搞个随机 让傻逼对面认为我们是人类,不要被封
+    time.sleep(random.uniform(0,1))
 
 print("=" * 60)
-print(f"Page 1/{total_pages} | Products: {len(all_products)}")
-
+print(f"Summary: Page {last_page} | Products: {len(all_products)}")
+if empty_page is not None:
+    print(f"Stopped because page {empty_page} returned 0 products.")
+    
 # 保存完整 JSON
 with open("member.json","w",encoding="utf-8") as f:
     json.dump(all_products,f,ensure_ascii=False,indent=2)
@@ -150,13 +158,6 @@ for p in all_products:
 
 df = pd.DataFrame(rows)
 
-df.to_csv(
-    "member.csv",
-    index=False,
-    encoding="utf-8-sig",
-)
-
-print(df.head())
-
+df.to_csv("member.csv",index=False,encoding="utf-8-sig",)
 print("=" * 60)
 print("Done.")
