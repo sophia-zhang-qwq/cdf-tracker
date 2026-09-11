@@ -55,44 +55,6 @@ json_data = {
     #'soldOutShowType': '3',
 }
 
-""""
-for pid in range(1134985, 1135005):
-    url = (
-        "https://www.cdf-beauty.com/api/prod/shophomepartdata"
-        f"?PartId={pid}&pageSize=1"
-    )
-
-    r = requests.get(url, headers=headers)
-
-    try:
-        data = r.json()
-
-        # 没有 list 就跳过
-        if not data.get("list"):
-            continue
-
-        print("=" * 60)
-        print(f"PartId   : {pid}")
-        print(f"dataType : {data.get('dataType')}")
-
-        activity = data.get("activityInfo", {})
-        print(f"Activity : {activity.get('name')}")
-        print(f"ActivityId : {activity.get('activityId')}")
-
-        print(f"List size : {len(data['list'])}")
-
-        first = data["list"][0]
-
-        print("\nFirst item keys:")
-        print(sorted(first.keys()))
-
-        print("\nFirst item preview:")
-        print(json.dumps(first, indent=2, ensure_ascii=False)[:1000])
-
-    except Exception as e:
-        print(pid, e)
-"""
-
 # get home top-listed products for a given section (partId)
 def get_home_products(part_id):
 
