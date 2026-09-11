@@ -7,7 +7,8 @@ from pathlib import Path
 import math
 import random
 
-# put file root directory into the Python search path, so that we can import modules from the root directory
+# put file root directory into the Python search path,
+# so that we can import modules from the root directory
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from common.headers import HEADERS, COOKIES, get_headers
 
@@ -22,8 +23,7 @@ headers = get_headers(referer)
 
 all_products = []
 
-
-# session不会重复打开界面,防止被踢
+# Session不会重复打开界面,防止被踢
 session = requests.Session()
 session.headers.update(headers)
 session.cookies.update(COOKIES)
@@ -80,7 +80,7 @@ for page in range(1, total_pages + 1):
         print(f"Page {page}/{total_pages} | " f"Products: {len(all_products)}")
 
     page += 1
-    # 搞个随机 让傻逼对面认不出来
+    # 搞个随机 让傻逼对面认为我们是人类,不要被封
     # time.sleep(0.5)
     time.sleep(random.uniform(0,1))
 
