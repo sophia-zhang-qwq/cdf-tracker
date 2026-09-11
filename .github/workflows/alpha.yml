@@ -28,7 +28,11 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run tracker
+      # =========================
+      # Clearance
+      # =========================
+
+      - name: Run clearance alpha detection
         working-directory: clearance
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
@@ -36,6 +40,20 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         run: |
           python alpha_detection.py
+
+      # =========================
+      # Favor
+      # =========================
+
+      - name: Run favor alpha detection
+        working-directory: favor
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: |
+          python alpha_detection.py
+
       
       - name: Commit database
         working-directory: .
@@ -45,7 +63,10 @@ jobs:
           
           git add clearance/*.csv
           git add clearance/clearance.db
-
+          
+          git add favor/*.csv
+          git add favor/favor.db
+          
           git diff --cached --quiet || git commit -m "Update clearance database"
 
           git push
