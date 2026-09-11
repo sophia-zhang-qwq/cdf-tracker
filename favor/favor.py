@@ -39,13 +39,9 @@ payload = {
     "pageIndex": 1
 }
 
-r = session.post(URL, json=payload)
-data = r.json()
-
 # -------------------------
 # iterate through pages to fetch member-exclusive products
 # -------------------------
-page = 1
 while True:
 #for page in range(1, total_pages + 1):
     payload["pageIndex"] = page
