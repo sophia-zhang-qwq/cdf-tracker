@@ -89,7 +89,7 @@ for p in all_products:
         original_price = price        
 
     rows.append({
-        "product_id": p.get("id"),
+        "productId": p.get("id"),
         "brand_id": p.get("brandId"),
         "name": p.get("name"),
 
