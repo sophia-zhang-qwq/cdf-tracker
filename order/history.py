@@ -6,7 +6,8 @@ import sys
 from pathlib import Path
 import random
 
-# put file root directory into the Python search path, so that we can import modules from the root directory
+# put file root directory into the Python search path, 
+# so that we can import modules from the root directory
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from common.headers import HEADERS, COOKIES, get_headers
 
