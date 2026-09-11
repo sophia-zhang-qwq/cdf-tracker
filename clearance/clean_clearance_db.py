@@ -22,9 +22,11 @@ time:
 
 SRC = Path("clearance.db")
 OUT = Path("clearance_clean.db")
+# open 2 databases
 src = sqlite3.connect(SRC)
 dst = sqlite3.connect(OUT)
 
+# clearance.db 这个文件最后一次修改的时间 把这个时间塞给每一行product
 time = datetime.fromtimestamp(SRC.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
 
 dst.execute(f"ATTACH DATABASE '{SRC}' AS src")
@@ -38,7 +40,7 @@ SELECT
     productName,
     price,
     originalPrice,
-    price * 1.0 / originalPrice AS priceDiscount,
+    ROUND(price * 10.0 / originalPrice, 1) AS priceDiscount,
     activityStock,
     stock,
     'hk' AS source,
