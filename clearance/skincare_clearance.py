@@ -191,11 +191,7 @@ print(
 # save all skincare clearance products to csv
 search_df = products_to_df(all_products)
 
-search_df.to_csv(
-    "clearance_skincare.csv",
-    index=False,
-    encoding="utf-8-sig"
-)
+search_df.to_csv("clearance_skincare.csv",index=False,encoding="utf-8-sig")
 print("Saved: clearance_skincare.csv")
 
 # Summary
@@ -210,27 +206,6 @@ print("CSV Files")
 print("  home_preview_skincare.csv")
 print("  clearance_skincare.csv")
 
-"""
-print("\n========== ALL KEYS ==========\n")
-
-all_keys = set()
-
-for p in all_products:
-    all_keys.update(p.keys())
-
-for k in sorted(all_keys):
-    print(k)
-
-print("\n========== FIRST PRODUCT ==========\n")
-
-print(
-    json.dumps(
-        all_products[0],
-        indent=2,
-        ensure_ascii=False
-    )
-)
-"""
 
 
 """
