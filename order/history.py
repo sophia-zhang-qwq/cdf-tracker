@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 import sys
 from pathlib import Path
+import random
 
 # put file root directory into the Python search path, so that we can import modules from the root directory
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -56,7 +57,9 @@ while True:
 
     last_order_id = orders[-1]["id"]
 
-    time.sleep(0.5)
+    # 搞个随机 让傻逼对面认为我们是人类,不要被封
+    #time.sleep(0.5)
+    time.sleep(random.uniform(0,1))
 
 print("=" * 60)
 print(f"Total Orders: {len(all_orders)}")
@@ -121,13 +124,7 @@ for order in all_orders:
 
 df = pd.DataFrame(rows)
 
-df.to_csv(
-    "orders.csv",
-    index=False,
-    encoding="utf-8-sig",
-)
-
+df.to_csv("orders.csv",index=False,encoding="utf-8-sig")
 print(df.head())
-
 print("=" * 60)
 print("Done.")
