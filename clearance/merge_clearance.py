@@ -10,7 +10,7 @@ for Home Preview Product
 Search 有吗?
         │
         ▼
-Merge
+       Merge
         │
         ├── 有, 重复SKU → 检查是否一致/是否有套利空间 by diff price,discount etc
         │        │

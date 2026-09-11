@@ -207,7 +207,6 @@ print("  home_preview_skincare.csv")
 print("  clearance_skincare.csv")
 
 
-
 """
 {
   "price": [
