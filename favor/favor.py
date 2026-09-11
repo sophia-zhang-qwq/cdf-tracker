@@ -54,7 +54,6 @@ while True:
     r.raise_for_status()
 
     data = r.json()
-
     # -------------------------
     # 这里可能叫 data / result / orders / list
     # 根据实际 response 调一下即可
@@ -86,15 +85,15 @@ for p in all_products:
 
     rows.append({
         "productId": p.get("id"),
-        "brand_id": p.get("brandId"),
-        "name": p.get("name"),
+        "brandId": p.get("brandId"),
+        "productName": p.get("name"),
 
         "price": price,
-        "original_price": original_price,
+        "originalPrice": original_price,
         "vipPrice": p.get("vipPrice"),
     
-        "discount": round(price*10.0/original_price,1) if original_price else None,
-        "activity_stock": p.get("stockStatus"),
+        "priceDiscount": round(price*10.0/original_price,1) if original_price else None,
+        "activityStock": p.get("stockStatus"),
 
         "discountInfo": p.get("discountInfo"),
         "promotionInfo": p.get("promotionInfo"),})

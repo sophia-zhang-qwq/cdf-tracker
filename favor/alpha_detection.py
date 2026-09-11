@@ -1,8 +1,13 @@
 import sqlite3
 import pandas as pd
 import os
+import sys
+from pathlib import Path
 
-from alert import send_alert
+# put file root directory into the Python search path,
+# so that we can import modules from the root directory
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+from clearance.alert import send_alert
 
 # Update favor.csv to latest version
 print("Updating favor...")
@@ -83,7 +88,7 @@ if len(new_products) > 0:
 
     for _, row in new_products.iterrows():
         alerts.append(
-            f"{row['productName']}\n"
+            f"{row['name']}\n"
             f"Price: HK${row['price']}\n"
             f"Stock: {row['activityStock']}\n"
             f"Discount: {row['discount']}\n"
@@ -97,7 +102,7 @@ if len(removed_products) > 0:
     alerts.append("=== PRODUCT REMOVED FROM API ===")
     for _, row in removed_products.iterrows():
         alerts.append(
-            f"{row['productName']}\n "
+            f"{row['name']}\n "
             f"HK${row['price']} \n"
             f"(Removed, Last Stock: {row['activityStock']})\n"
             f"Original Price: HK$ {row['originalPrice']}\n")
@@ -171,60 +176,11 @@ if len(restock) > 0:
             f"Discount: {row['discount_new']}\n"
             f"Original Price: HK${row['originalPrice_new']}\n")
 
-mismatch_alert = []
-
 # alpha 6: price mismatch detection
-for _, row in new_df.iterrows():
-
-    alpha_rules = []
-
-    # Rule 1: discount != price
-    if (abs(row["discount"] - row["price"]) > 0.01):
-        alpha_rules.append(
-            f"Rule 1: Discount Price != Price "
-            f"({row['discount']} != {row['price']})")
-
-    # Rule 2: discount != price/originalPrice
-    if (pd.notna(row["priceDiscount"]) and pd.notna(row["originalPrice"])):
-        actual_discount = (row["price"]/row["originalPrice"] * 10)
-
-        if abs(actual_discount - row["priceDiscount"]) > 0.1:
-            alpha_rules.append(
-                f"Rule 2: Actual Discount "
-                f"({actual_discount:.1f}折)"
-                f" != Displayed Discount "
-                f"({row['priceDiscount']}折)")
-
-    # Rule 3: priceDiscount != activityDiscount(3.5折!=3.5折)
-    if (pd.notna(row["priceDiscount"]) and pd.notna(row["activityDiscount"])
-        and abs(row["priceDiscount"]-row["activityDiscount"])> 0.1):
-
-        alpha_rules.append(
-            f"Rule 3: Price Discount "
-            f"({row['priceDiscount']}折)"
-            f" != Activity Discount "
-            f"({row['activityDiscount']}折)")
-
-    # No Alpha
-    if len(alpha_rules) == 0:
-        continue
-
-    mismatch_alert.append(
-        f"{row['productName']}\n"
-        f"Price: HK${row['price']}\n"
-        f"Discount Price: HK${row['discount']}\n"
-        f"Original Price: HK${row['originalPrice']}\n"
-        f"\n"
-        + "\n".join(alpha_rules)
-        + "\n")
-
-# only print once
-if len(mismatch_alert) > 0:
-    alerts.append("=== POSSIBLE PRICE MISMATCH ARBITRAGE ===")
-    alerts.extend(mismatch_alert)
+# alph 6 removed
 
 # update database
-new_df.to_sql("clearance_products",conn,if_exists="replace",index=False)
+new_df.to_sql("favor_products",conn,if_exists="replace",index=False)
 
 print("\nDatabase updated:",len(new_df),"products")
 conn.close()
