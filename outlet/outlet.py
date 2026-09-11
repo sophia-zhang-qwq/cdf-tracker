@@ -33,18 +33,9 @@ all_products = []
 payload = {
     "pageIndex": 1,
     "refreshProduct": True,
-    "partId": 1133751,
+    #"partId": 1133751,
+    "partId": 1144863,
 }
-
-"""
-payload = {
-    "pageIndex": 1,
-    "activityType": 23,
-    "status": "1",
-    "refreshProduct": True,
-    "activityId": "500022208",
-}
-"""
 
 r = session.post(URL, json=payload)
 data = r.json()
