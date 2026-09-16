@@ -17,6 +17,10 @@ URL = "https://www.cdf-beauty.com/api/ordercenter/sqorderlist"
 # -------------------------
 referer = "https://www.cdf-beauty.com/myorderlist?selectedTabState=0&source=usercenter"
 headers = get_headers(referer)
+# 用浏览器中最新请求的完整 ymt-pars 覆盖公共配置
+headers.update({
+    "ymt-pars": "format=json&appid=71&accesstoken=2C5FBFA3CAB5CF657BD268641840AF206586FAED73C79637DEAF025B52B56367279D2E7C27A2A48462D1FA6A593C96CDDB370432B9514C68&userid=626699686&os=iOS&client=iOS&requestid=26b0e420-3b89-b571-3089-985b6dec5034&idfa=e38dacf2-22ce-79ce-b7c1-910aca56b78f&imei=e38dacf2-22ce-79ce-b7c1-910aca56b78f&mchId=604163145&language=zh_TW",
+})
 
 all_orders = []
 
