@@ -166,7 +166,7 @@ alert_text = "\n".join(alerts)
 print()
 if alert_text:
     print(alert_text)
-    send_alert(alert_text)
+    send_alert(alert_text,"clearance.db")
 else:
     print("No Cross Source Alpha")
 
