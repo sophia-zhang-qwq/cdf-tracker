@@ -5,5 +5,8 @@ __pycache__/
 # macOS
 .DS_Store
 
+# Local Ctrip credentials and captured responses
+trip.local.json
+trip_output/
 
 
