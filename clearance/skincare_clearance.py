@@ -51,7 +51,7 @@ json_data = {
     #'partId': '1119004',
     #'soldOutShowType': '3',
     #'partId': '1163491',
-    'partId': '1179731',
+    'partId': '1184463',
     #'soldOutShowType': '3',
 }
 
@@ -132,7 +132,7 @@ print("=" * 60)
 print("Home Preview")
 print("=" * 60)
 #home_products = get_home_products(1163491)
-home_products = get_home_products(1179731)
+home_products = get_home_products(1184463)
 print(f"Home preview: {len(home_products)} products")
 
 home_df = products_to_df(home_products)

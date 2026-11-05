@@ -45,7 +45,7 @@ json_data = {
         3008,
     ],
     #'partId': '1163497',
-    'partId': '1179737',
+    'partId': '1184469',
     'soldOutShowType': '3',
 }
 
@@ -122,11 +122,20 @@ def products_to_df(products):
 # save home-preview skincare clearance products to csv
 # 1134991 skincare
 # 1134997 perfume 
+# 1184472 grocery
 print("=" * 60)
 print("Home Preview")
 print("=" * 60)
 #home_products = get_home_products(1163497)
-home_products = get_home_products(1179737)
+home_products = get_home_products(1184469)
+grocery_products = get_home_products(1184472)
+grocery_df = products_to_df(grocery_products)
+grocery_df.to_csv(
+    "home_preview_grocyer.csv",
+    index=False,
+    encoding="utf-8-sig")
+print("Saved: home_preview_grocyer.csv\n")
+
 print(f"Home preview: {len(home_products)} products")
 
 home_df = products_to_df(home_products)
