@@ -131,7 +131,7 @@ home_products = get_home_products(1184469)
 grocery_products = get_home_products(1184472)
 grocery_df = products_to_df(grocery_products)
 grocery_df.to_csv(
-    "home_preview_grocyer.csv",
+    "home_preview_grocery.csv",
     index=False,
     encoding="utf-8-sig")
 print("Saved: home_preview_grocyer.csv\n")
