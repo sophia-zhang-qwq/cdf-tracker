@@ -1,11 +1,11 @@
 [
   {
-    "id": 10169,
-    "name": "L'OCCITANE"
-  },
-  {
     "id": 31885,
     "name": "CLARINS"
+  },
+  {
+    "id": 10169,
+    "name": "L'OCCITANE"
   },
   {
     "id": 10135,
@@ -44,12 +44,12 @@
     "name": "FRESH"
   },
   {
-    "id": 31851,
-    "name": "Chloe"
-  },
-  {
     "id": 30992,
     "name": "KILIAN"
+  },
+  {
+    "id": 31851,
+    "name": "Chloe"
   },
   {
     "id": 21280,
